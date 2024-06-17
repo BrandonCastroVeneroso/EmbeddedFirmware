@@ -1,0 +1,11 @@
+/MODBUS/Estudio
+/MODBUS/modulo.X
+/MODBUS/MyProject.c
+/MODBUS/modbus.c
+/MODBUS/modbus.h
+/MODBUS/modbus_app_layer.c
+/MODBUS/modbus_app_layer.h
+/MODBUS/modbus_phy_layer_rtu.c
+/MODBUS/modbus_phy_layer_rtu_uc.c
+/MODBUS/modbus_phy_layer.h
+/MODBUS/modbus_phy_layer_uc.h
