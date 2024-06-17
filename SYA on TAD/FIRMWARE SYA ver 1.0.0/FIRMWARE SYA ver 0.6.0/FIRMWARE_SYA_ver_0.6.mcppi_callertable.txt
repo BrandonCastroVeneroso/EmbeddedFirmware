@@ -1,0 +1,8 @@
+main
+	__CC2DW
+	InitMCU
+	InitInterrupt
+	watcher
+	selector
+interrupt
+	blink

@@ -1,0 +1,9 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F47K40 -RA -Y -DL -O11111100 -fo20 -N"C:\Users\USER\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\Simultaneo y alternancia\FIRMWARE SYA ver 1.1.0\FIRMWARE_SYA_ver_1_1_0.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\USER\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\Simultaneo y alternancia\FIRMWARE SYA ver 1.1.0\" "FIRMWARE_SYA_ver_1_1_0.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System_xxK40.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 3900 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F47K40.c
+diagnostics: 4905	123	Compiled Successfully	P18F47K40.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	FIRMWARE_SYA_ver_1_1_0.c
+error: 69	436	Function must not have return value of bit or sbit type	FIRMWARE_SYA_ver_1_1_0.c
+error: 0	102	Finished (with errors): 21 Mar 2024, 17:11:58	FIRMWARE_SYA_ver_1_1_0.mcppi

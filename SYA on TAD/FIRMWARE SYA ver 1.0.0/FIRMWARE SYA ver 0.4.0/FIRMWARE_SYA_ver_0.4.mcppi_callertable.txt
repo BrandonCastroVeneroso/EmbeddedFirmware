@@ -1,0 +1,6 @@
+main
+	InitMCU
+	InitInterrupt
+	watcher
+	selector
+interrupt

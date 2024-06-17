@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F47K40 -RA -Y -DL -O11111100 -fo20 -N"C:\Users\USER\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\Simultaneo y alternancia\FIRMWARE SYA ver 1.0.2\FIRMWARE_SYA_ver_1_0_2.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\USER\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\Simultaneo y alternancia\FIRMWARE SYA ver 1.0.2\" "FIRMWARE_SYA_ver_1_0_2.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System_xxK40.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 3900 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F47K40.c
+diagnostics: 4905	123	Compiled Successfully	P18F47K40.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	FIRMWARE_SYA_ver_1_0_2.c
+diagnostics: 372	123	Compiled Successfully	FIRMWARE_SYA_ver_1_0_2.c
+diagnostics: 0	127	All files Compiled in 63 ms	 
+hint: 0	1144	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 3898 (99%)	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 3898 (99%)
+hint: 0	1144	Used ROM (bytes): 602 (1%)  Free ROM (bytes): 130470 (99%)	Used ROM (bytes): 602 (1%)  Free ROM (bytes): 130470 (99%)
+diagnostics: 0	125	Project Linked Successfully	FIRMWARE_SYA_ver_1_0_2.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'FIRMWARE_SYA_ver_1_0_2.mcppi' completed: 250 ms	 
+diagnostics: 0	103	Finished successfully: 26 Mar 2024, 17:28:20	FIRMWARE_SYA_ver_1_0_2.mcppi

@@ -1,0 +1,17 @@
+main
+	__CC2DW
+	InitSystem
+		InterruptConfig
+		DeviceConfig
+		ClockConfig
+		InitEUSART
+			UART1_Remappable_Init
+				UART_Set_Active
+				UART1_Init_Static
+	EnableTimer0
+interrupt
+	UART1_Data_Ready
+		UART1_Data_Ready_Static
+	rxfunction
+		UART1_Remappable_Read
+			UART1_Read_Static

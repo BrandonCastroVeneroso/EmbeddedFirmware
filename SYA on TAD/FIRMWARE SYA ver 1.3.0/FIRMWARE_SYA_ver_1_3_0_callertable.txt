@@ -1,0 +1,9 @@
+main
+	__CC2DW
+	InitSystems
+		InitInterrupt
+		InitMCU
+		Events
+	FSM
+interrupt
+	Events

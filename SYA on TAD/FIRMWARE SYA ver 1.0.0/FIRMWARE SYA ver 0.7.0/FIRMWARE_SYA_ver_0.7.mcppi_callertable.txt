@@ -1,0 +1,12 @@
+main
+	__CC2DW
+	InitMCU
+	InitInterrupt
+	watcher
+	StateMachine
+	selector
+		GT1
+		GT2
+		GT3
+interrupt
+	blink

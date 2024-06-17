@@ -1,0 +1,55 @@
+1.3.0 - PIC18LF47K40 20 MHz
+External Osc
+HS (crystal oscillator) above 8M Hz
+
+Power-up default value for COSC bits
+EXTOSC operating per FEXTOSC bits (device manufacturing default)
+
+Clock Out Enable bit
+CLKOUT function is disabled
+
+Clock Switch Enable bit
+Writing to NOSC and NDIV is allowed
+
+Fail-Safe Clock Monitor Enable bit
+Fail-Safe Clock Monitor enabled
+
+Master Clear Enable bit
+if LVP = 0, MCLR pin is MCLR
+
+Power-up Timer Enable bit
+Power up timer disabled
+
+Low-power BOR enable bit
+ULPBOR disabled
+
+Brown-out Reset Enable bits
+Brown-out Reset enabled, SBOREN bit is ignored
+
+ZCD Disable bit
+ZCD diabled. ZCD can be enabled by setting the ZCDSEN bit
+
+PPSLOCK bit One-Way Set Enable bit
+PPSLOCK bit can be cleared and set only once
+
+Stack Full/Underflow Reset Enable bit
+Stack Full/Underflow will cause Reset
+
+Debugger Enable bit
+Background debugger disabled
+
+Extended Instruction Set Enable bit
+Extended Instruction Set and Indexed Addressing Mode disabled
+
+WDT Period Select bits
+Divider ratio 1:65536
+
+WDT operating mode
+WDT enabled regardless of sleep
+
+WDT Window Select bits
+window always open (100%): software control
+
+WDT input clock selector
+Software Control
+

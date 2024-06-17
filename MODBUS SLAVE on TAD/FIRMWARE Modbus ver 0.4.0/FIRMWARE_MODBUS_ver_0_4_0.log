@@ -1,0 +1,17 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18LF47K40 -LHF -GC -DL -O11111110 -fo20 -N"D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE Modbus ver 0.4.0\FIRMWARE_MODBUS_ver_0_4_0.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE Modbus ver 0.4.0\" -SP"D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE Modbus ver 0.4.0\libs\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "FIRMWARE_MODBUS_ver_0_4_0.c" "convert.c" "system.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_SoftUART.mcl" "__Lib_PPS_4XK40.mcl" "__Lib_UART_Remappable_12.mcl"	 
+hint: 0	1139	Available RAM: 3698 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	system.h
+warning: 117	1508	Implicit conversion of int to ptr	FIRMWARE_MODBUS_ver_0_4_0.c
+diagnostics: 161	123	Compiled Successfully	FIRMWARE_MODBUS_ver_0_4_0.c
+diagnostics: 0	122	Compilation Started	convert.h
+diagnostics: 98	123	Compiled Successfully	convert.c
+diagnostics: 0	122	Compilation Started	system.h
+diagnostics: 114	123	Compiled Successfully	system.c
+diagnostics: 0	127	All files Compiled in 172 ms	 
+hint: 0	1144	Used RAM (bytes): 32 (1%)  Free RAM (bytes): 3666 (99%)	Used RAM (bytes): 32 (1%)  Free RAM (bytes): 3666 (99%)
+hint: 0	1144	Used ROM (bytes): 458 (1%)  Free ROM (bytes): 130614 (99%)	Used ROM (bytes): 458 (1%)  Free ROM (bytes): 130614 (99%)
+diagnostics: 0	125	Project Linked Successfully	FIRMWARE_MODBUS_ver_0_4_0.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 3047 ms	 
+diagnostics: 0	129	Project 'FIRMWARE_MODBUS_ver_0_4_0.mcppi' completed: 3235 ms	 
+diagnostics: 0	103	Finished successfully: 10 Jun 2024, 10:22:44	FIRMWARE_MODBUS_ver_0_4_0.mcppi

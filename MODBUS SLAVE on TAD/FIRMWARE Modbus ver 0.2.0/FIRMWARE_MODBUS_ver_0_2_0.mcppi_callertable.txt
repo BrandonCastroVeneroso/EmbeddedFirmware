@@ -1,0 +1,17 @@
+main
+	__CC2DW
+	InitInterrupt
+	InitMCU
+		Unlock_IOLOCK
+		PPS_Mapping_NoLock
+			_PPS_Mapping
+				Unlock_IOLOCK
+				Lock_IOLOCK
+		Lock_IOLOCK
+		UART1_Remappable_Init
+			UART_Set_Active
+			UART1_Init_Static
+	UART1_Remappable_Write
+		UART1_Write_Static
+	Events
+interrupt

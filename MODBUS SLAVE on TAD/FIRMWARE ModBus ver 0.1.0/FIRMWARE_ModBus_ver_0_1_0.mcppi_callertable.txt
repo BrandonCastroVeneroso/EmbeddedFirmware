@@ -1,0 +1,8 @@
+main
+	__CC2DW
+	InitInterrupt
+	InitMCU
+		UART1_Remappable_Init
+			UART_Set_Active
+			UART1_Init_Static
+interrupt

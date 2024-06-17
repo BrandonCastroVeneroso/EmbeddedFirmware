@@ -1,0 +1,364 @@
+#line 1 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+#line 37 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+bit interruptC0;
+bit interruptC1;
+bit clock0;
+unsigned int counter = 0;
+
+
+bit sn_PosEdge_1;
+bit sn_PosEdge_2;
+bit sn_NegEdge_1;
+bit sn_NegEdge_2;
+
+
+int gray;
+char result[3];
+int bit0;
+int bit1;
+bit GT1;
+bit GT2;
+bit GT3;
+
+
+short unsigned int last_INC;
+unsigned int INC;
+short unsigned int fsm_state, next_state;
+bit INC1;
+bit INC2;
+bit INC3;
+bit AND_signal;
+
+
+
+
+
+void InitMCU();
+void InitInterrupt();
+void Events();
+void CodigoGray(short unsigned int INC);
+#line 79 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void interrupt(){
+#line 94 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+ if((IOCCF.B0 == 1) && (IOCIE_bit == 1)){
+ IOCCF.B0 = 0;
+ interruptC0 = 1;
+
+
+ }
+
+ if((IOCCF.B1 == 1) && (IOCIE_bit == 1)){
+ IOCCF.B1 = 0;
+ interruptC1 = 1;
+
+
+ }
+
+}
+#line 114 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void CodigoGray(unsigned int INC){
+
+ gray = INC ^ (INC >> 1);
+ bit0 = (gray >> 0) & 1;
+ bit1 = (gray >> 1) & 1;
+
+ sprintf(result, "%u%u", bit1, bit0);
+
+ switch(result[0]){
+ case '0':
+ switch(result[1]){
+ case '1':
+
+ if(AND_signal == 1){
+
+ GT1 = 1;
+ return;
+ }
+ else{
+ return;
+ }
+ break;
+ }
+ break;
+ case '1':
+ switch(result[1]){
+ case '1':
+
+ if(AND_signal == 1){
+
+ GT2 = 1;
+ return;
+ }
+ else{
+ return;
+ }
+ break;
+ case '0':
+
+ if(AND_signal == 1){
+
+ GT3 = 1;
+ return;
+ }
+ else{
+ return;
+ }
+ break;
+ }
+ break;
+ }
+
+ return;
+
+}
+#line 174 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void Events(){
+
+ if(interruptC0){
+
+ if( PORTC.F0  == 1){
+ sn_PosEdge_1 = 0;
+ sn_NegEdge_1 = 1;
+ }
+ else{
+ sn_PosEdge_1 = 1;
+ sn_NegEdge_1 = 0;
+ }
+ }
+
+ else if(interruptC1){
+
+ if( PORTC.F1  == 1){
+ sn_PosEdge_2 = 0;
+ sn_NegEdge_2 = 1;
+ }
+ else{
+ sn_PosEdge_2 = 1;
+ sn_NegEdge_2 = 0;
+ }
+ }
+ else{
+ interruptC0 = 0;
+ interruptC1 = 0;
+ }
+ return;
+}
+#line 210 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void main(){
+
+ InitInterrupt();
+ InitMCU();
+
+ while(1){
+ Events();
+
+ fsm_state = next_state;
+ switch(fsm_state){
+
+ case 0:
+  LATA.F4  = 0;
+
+ if(sn_PosEdge_1 == 1){
+ switch(last_INC){
+
+ case 1:
+ INC1 = 0;
+ INC2 = 1;
+ INC3 = 0;
+ INC = 2;
+ next_state = 1;
+ break;
+
+ case 2:
+ INC1 = 0;
+ INC2 = 0;
+ INC3 = 1;
+ INC = 3;
+ next_state = 1;
+ break;
+ case 3:
+ INC1 = 1;
+ INC2 = 0;
+ INC3 = 0;
+ INC = 1;
+ next_state = 1;
+ break;
+ default:
+ INC1 = 1;
+ INC2 = 0;
+ INC3 = 0;
+ INC = 1;
+ next_state = 1;
+ break;
+ }
+ }
+ break;
+
+ case 1:
+ AND_signal = 1;
+ switch(INC){
+
+ case 1:
+
+ if(INC1){
+
+ CodigoGray(INC);
+ switch(GT1){
+ case 0:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ case 1:
+  LATA.F5  = 1;
+  LATE.F0  = 1;
+  LATE.F1  = 0;
+ break;
+ default:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ }
+ last_INC = 1;
+
+ if(sn_NegEdge_1){
+ next_state = 0;
+ INC1 = 0;
+ GT1 = 0;
+ }
+ else{
+ INC1 = 1;
+ }
+ }
+ break;
+
+ case 2:
+
+ if(INC2){
+
+ CodigoGray(INC);
+ switch(GT2){
+ case 0:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ case 1:
+  LATA.F5  = 0;
+  LATE.F0  = 1;
+  LATE.F1  = 1;
+ break;
+ default:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ }
+ last_INC = 2;
+
+ if(sn_NegEdge_1){
+ next_state = 0;
+ INC2 = 0;
+ GT2 = 0;
+ }
+ else{
+ INC2 = 1;
+ }
+ }
+ break;
+
+ case 3:
+
+ if(INC3){
+
+ CodigoGray(INC);
+ switch(GT3){
+ case 0:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ case 1:
+  LATA.F5  = 1;
+  LATE.F0  = 0;
+  LATE.F1  = 1;
+ break;
+ default:
+  LATA.F5  = 0;
+  LATE.F0  = 0;
+  LATE.F1  = 0;
+ break;
+ }
+ last_INC = 3;
+
+ if(sn_NegEdge_1){
+ next_state = 0;
+ INC3 = 0;
+ GT3 = 0;
+ }
+ else{
+ INC3 = 1;
+ }
+ }
+ break;
+ }
+ break;
+ default:
+ next_state = 0;
+ fsm_state = 0;
+ INC1 = 0;
+ INC2 = 0;
+ INC3 = 0;
+ INC = 0;
+ last_INC = 2;
+ GT1 = 0;
+ GT2 = 0;
+ GT3 = 0;
+ break;
+ }
+ }
+
+}
+#line 391 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void InitInterrupt(){
+
+ PIE0 = 0x30;
+ PIR0 = 0x00;
+
+
+
+
+ IOCCN = 0x03;
+ IOCCP = 0x03;
+ IOCCF = 0x00;
+ PIR0.TMR0IF = 0;
+ INTCON = 0xC0;
+
+}
+#line 411 "C:/Users/USER/Documents/Brandon Castro Veneroso/01 PROGRAMAS EN DESARROLLO/Simultaneo y alternancia/FIRMWARE SYA ver 1.0.0/FIRMWARE SYA ver 0.9.0/FIRMWARE SYA ver 0.9.3/FIRMWARE_SYA_ver_0_9_3.c"
+void InitMCU(){
+
+ ADCON1 = 0x0F;
+ ANSELC = 0;
+ ANSELE = 0;
+ ANSELA = 0;
+
+ TRISC = 0x03;
+ TRISE = 0x00;
+ TRISA = 0x80;
+
+ PORTC = 0x00;
+ PORTE = 0x00;
+ PORTA = 0x10;
+
+ LATC = 0x00;
+ LATE = 0x00;
+ LATA = 0x10;
+
+ WPUC = 0x03;
+ INLVLC = 0x03;
+ CM1CON0 = 0x00;
+ CM2CON0 = 0x00;
+
+}

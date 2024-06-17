@@ -1,0 +1,10 @@
+main
+	__CC2DW
+	InitSystem
+		InterruptConfig
+		DeviceConfig
+		ClockConfig
+		InitEUSART
+	ud_write_uart1
+interrupt
+	rxfunction
