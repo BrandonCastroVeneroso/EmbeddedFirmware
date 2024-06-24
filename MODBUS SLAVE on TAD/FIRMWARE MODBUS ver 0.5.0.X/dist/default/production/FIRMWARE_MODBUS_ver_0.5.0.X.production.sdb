@@ -1,0 +1,1255 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18LF47K40 ]
+[d frameptr 4065 ]
+"94 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/adc/src/adcc.c
+[e E10132 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+ANAIN1 0
+ANAIN2 1
+ANAIN3 2
+ANAIN4 3
+]
+"94 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[e E10135 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+ANAIN1 0
+ANAIN2 1
+ANAIN3 2
+ANAIN4 3
+]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memmove.c
+[v _memmove memmove `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"51 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\libs/modbus.c
+[v _ModbusDelay ModbusDelay `(v  1 e 1 0 ]
+"64
+[v _ClearResponse ClearResponse `(v  1 e 1 0 ]
+"79
+[v _DecodePacket DecodePacket `(v  1 e 1 0 ]
+"122
+[v _ReadHR ReadHR `(v  1 e 1 0 ]
+"177
+[v _ReadIR ReadIR `(v  1 e 1 0 ]
+"231
+[v _PresetSR PresetSR `(v  1 e 1 0 ]
+"286
+[v _ReadCoil ReadCoil `(v  1 e 1 0 ]
+"361
+[v _ReadDI ReadDI `(v  1 e 1 0 ]
+"438
+[v _WriteCoil WriteCoil `(v  1 e 1 0 ]
+"498
+[v _WriteMultiCoil WriteMultiCoil `(v  1 e 1 0 ]
+"552
+[v _CalculateCRC CalculateCRC `(us  1 e 2 0 ]
+"587
+[v _CheckCRC CheckCRC `(uc  1 e 1 0 ]
+"37 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"87
+[v _calcAD calcAD `(v  1 e 1 0 ]
+"105
+[v _rxfunc rxfunc `(v  1 e 1 0 ]
+"128
+[v _tmr0func tmr0func `(v  1 e 1 0 ]
+"45 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"118
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"39 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"117
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"126
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"130
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"143
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"152
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"156
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"169
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"178
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"182
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"131
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"38 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"54 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+[v i2_TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"81
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+"86
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"116
+[v _TMR0_PeriodCountSet TMR0_PeriodCountSet `(v  1 e 1 0 ]
+"121
+[v _TMR0_OverflowISR TMR0_OverflowISR `(v  1 e 1 0 ]
+"135
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+[v i2_TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"140
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+"106 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"135
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+"157
+[v _EUSART1_TransmitEnable EUSART1_TransmitEnable `T(v  1 e 1 0 ]
+"162
+[v _EUSART1_TransmitDisable EUSART1_TransmitDisable `T(v  1 e 1 0 ]
+"187
+[v _EUSART1_AutoBaudSet EUSART1_AutoBaudSet `T(v  1 e 1 0 ]
+"199
+[v _EUSART1_AutoBaudQuery EUSART1_AutoBaudQuery `T(a  1 e 1 0 ]
+"223
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"228
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"233
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+"238
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+"244
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"267
+[v _EUSART1_ReceiveISR EUSART1_ReceiveISR `(v  1 e 1 0 ]
+"307
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"318
+[v _putch putch `(v  1 e 1 0 ]
+"324
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"329
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"336
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"344
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"352
+[v _EUSART1_RxCompleteCallbackRegister EUSART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"324 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X/mcc_generated_files/uart/eusart1.h
+[v _EUSART1_RxInterruptHandler EUSART1_RxInterruptHandler `*.38(v  1 e 3 0 ]
+"3663 C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @3765 ]
+[s S613 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"4704
+[u S620 . 1 `S613 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES620  1 e 1 @3778 ]
+[s S635 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"4860
+[s S644 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S650 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S655 . 1 `S635 1 . 1 0 `S644 1 . 1 0 `S650 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES655  1 e 1 @3781 ]
+[s S566 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"5110
+[u S573 . 1 `S566 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES573  1 e 1 @3786 ]
+[s S215 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"5158
+[s S221 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S224 . 1 `S215 1 . 1 0 `S221 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES224  1 e 1 @3787 ]
+[s S680 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"5259
+[s S689 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S694 . 1 `S680 1 . 1 0 `S689 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES694  1 e 1 @3789 ]
+"6047
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"6187
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"6339
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"6390
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"6448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"7346
+[v _RB4PPS RB4PPS `VEuc  1 e 1 @3827 ]
+"8358
+[v _IOCAF IOCAF `VEuc  1 e 1 @3850 ]
+"8420
+[v _IOCAN IOCAN `VEuc  1 e 1 @3851 ]
+"8482
+[v _IOCAP IOCAP `VEuc  1 e 1 @3852 ]
+"8544
+[v _INLVLA INLVLA `VEuc  1 e 1 @3853 ]
+"8606
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3854 ]
+"8668
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"8730
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"8792
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8854
+[v _IOCBF IOCBF `VEuc  1 e 1 @3858 ]
+"8916
+[v _IOCBN IOCBN `VEuc  1 e 1 @3859 ]
+"8978
+[v _IOCBP IOCBP `VEuc  1 e 1 @3860 ]
+"9040
+[v _INLVLB INLVLB `VEuc  1 e 1 @3861 ]
+"9102
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3862 ]
+"9164
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"9226
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"9288
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"9350
+[v _IOCCF IOCCF `VEuc  1 e 1 @3866 ]
+"9412
+[v _IOCCN IOCCN `VEuc  1 e 1 @3867 ]
+"9474
+[v _IOCCP IOCCP `VEuc  1 e 1 @3868 ]
+"9536
+[v _INLVLC INLVLC `VEuc  1 e 1 @3869 ]
+"9598
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3870 ]
+"9660
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"9722
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"9784
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"9846
+[v _INLVLD INLVLD `VEuc  1 e 1 @3874 ]
+"9908
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3875 ]
+"9970
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"10032
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"10094
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"10156
+[v _IOCEF IOCEF `VEuc  1 e 1 @3879 ]
+"10177
+[v _IOCEN IOCEN `VEuc  1 e 1 @3880 ]
+"10198
+[v _IOCEP IOCEP `VEuc  1 e 1 @3881 ]
+"10219
+[v _INLVLE INLVLE `VEuc  1 e 1 @3882 ]
+"10257
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3883 ]
+"10289
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"10321
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"10359
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"13600
+[v _ADACT ADACT `VEuc  1 e 1 @3926 ]
+"13652
+[v _ADCLK ADCLK `VEuc  1 e 1 @3927 ]
+"13710
+[v _ADREF ADREF `VEuc  1 e 1 @3928 ]
+"13751
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3929 ]
+[s S393 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"13765
+[u S399 . 1 `S393 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES399  1 e 1 @3929 ]
+"13790
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3930 ]
+[s S329 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"13812
+[s S334 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S342 . 1 `S329 1 . 1 0 `S334 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES342  1 e 1 @3930 ]
+"13867
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3931 ]
+[s S300 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"13888
+[s S304 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[u S312 . 1 `S300 1 . 1 0 `S304 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES312  1 e 1 @3931 ]
+"13938
+[v _ADACQ ADACQ `VEuc  1 e 1 @3932 ]
+"14008
+[v _ADCAP ADCAP `VEuc  1 e 1 @3933 ]
+"14060
+[v _ADPRE ADPRE `VEuc  1 e 1 @3934 ]
+"14130
+[v _ADPCH ADPCH `VEuc  1 e 1 @3935 ]
+"14188
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3936 ]
+[s S246 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"14223
+[s S255 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S259 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S261 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S263 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S265 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S268 . 1 `S246 1 . 1 0 `S255 1 . 1 0 `S259 1 . 1 0 `S261 1 . 1 0 `S263 1 . 1 0 `S265 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES268  1 e 1 @3936 ]
+"14290
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @3937 ]
+"14360
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @3938 ]
+"14437
+[v _ADRESL ADRESL `VEuc  1 e 1 @3939 ]
+"14507
+[v _ADRESH ADRESH `VEuc  1 e 1 @3940 ]
+"14569
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @3941 ]
+[s S361 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"14589
+[s S368 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S372 . 1 `S361 1 . 1 0 `S368 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES372  1 e 1 @3941 ]
+"14634
+[v _ADRPT ADRPT `VEuc  1 e 1 @3942 ]
+"14704
+[v _ADCNT ADCNT `VEuc  1 e 1 @3943 ]
+"14781
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3944 ]
+"14851
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3945 ]
+"14928
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3946 ]
+"14998
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3947 ]
+"15075
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3948 ]
+"15145
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3949 ]
+"15222
+[v _ADERRL ADERRL `VEuc  1 e 1 @3950 ]
+"15292
+[v _ADERRH ADERRH `VEuc  1 e 1 @3951 ]
+"15369
+[v _ADACCL ADACCL `VEuc  1 e 1 @3952 ]
+"15439
+[v _ADACCH ADACCH `VEuc  1 e 1 @3953 ]
+"15516
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @3954 ]
+"15586
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @3955 ]
+"15663
+[v _CRCDATL CRCDATL `VEuc  1 e 1 @3956 ]
+"15725
+[v _CRCDATH CRCDATH `VEuc  1 e 1 @3957 ]
+"15794
+[v _CRCACCL CRCACCL `VEuc  1 e 1 @3958 ]
+"15856
+[v _CRCACCH CRCACCH `VEuc  1 e 1 @3959 ]
+"16056
+[v _CRCXORL CRCXORL `VEuc  1 e 1 @3962 ]
+"16113
+[v _CRCXORH CRCXORH `VEuc  1 e 1 @3963 ]
+[s S73 . 1 `uc 1 FULL 1 0 :1:0 
+`uc 1 SHIFTM 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ACCM 1 0 :1:4 
+`uc 1 BUSY 1 0 :1:5 
+`uc 1 CRCGO 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"16195
+[s S81 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CRCEN 1 0 :1:7 
+]
+[u S84 . 1 `S73 1 . 1 0 `S81 1 . 1 0 ]
+[v _CRCCON0bits CRCCON0bits `VES84  1 e 1 @3964 ]
+"16235
+[v _CRCCON1 CRCCON1 `VEuc  1 e 1 @3965 ]
+"16658
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+[s S1646 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"16685
+[s S1655 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S1664 . 1 `S1646 1 . 1 0 `S1655 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1664  1 e 1 @3971 ]
+"16770
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"16882
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"16994
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"17106
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+[s S1686 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"17143
+[s S1690 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[s S1694 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LE3 1 0 :1:3 
+]
+[s S1697 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LE4 1 0 :1:4 
+]
+[s S1700 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LE5 1 0 :1:5 
+]
+[s S1703 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LE6 1 0 :1:6 
+]
+[s S1706 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LE7 1 0 :1:7 
+]
+[u S1709 . 1 `S1686 1 . 1 0 `S1690 1 . 1 0 `S1694 1 . 1 0 `S1697 1 . 1 0 `S1700 1 . 1 0 `S1703 1 . 1 0 `S1706 1 . 1 0 ]
+[v _LATEbits LATEbits `VES1709  1 e 1 @3975 ]
+"17203
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"17325
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"17447
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"17569
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"17691
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+[s S1741 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"17934
+[s S1750 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S1754 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S1757 . 1 `S1741 1 . 1 0 `S1750 1 . 1 0 `S1754 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1757  1 e 1 @3983 ]
+[s S1778 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"18015
+[s S1787 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S1790 . 1 `S1778 1 . 1 0 `S1787 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES1790  1 e 1 @3984 ]
+"19305
+[v _RC1REG RC1REG `VEuc  1 e 1 @3993 ]
+"19359
+[v _TX1REG TX1REG `VEuc  1 e 1 @3994 ]
+"19425
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3995 ]
+"19479
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3996 ]
+"19533
+[v _RC1STA RC1STA `VEuc  1 e 1 @3997 ]
+[s S1211 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"19574
+[s S1220 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1223 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1226 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[s S1228 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1231 . 1 `S1211 1 . 1 0 `S1220 1 . 1 0 `S1223 1 . 1 0 `S1226 1 . 1 0 `S1228 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES1231  1 e 1 @3997 ]
+"19818
+[v _TX1STA TX1STA `VEuc  1 e 1 @3998 ]
+[s S1258 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"19882
+[s S1267 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1270 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[s S1272 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S1275 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1278 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S1281 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S1284 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S1287 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S1290 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S1292 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S1295 . 1 `S1258 1 . 1 0 `S1267 1 . 1 0 `S1270 1 . 1 0 `S1272 1 . 1 0 `S1275 1 . 1 0 `S1278 1 . 1 0 `S1281 1 . 1 0 `S1284 1 . 1 0 `S1287 1 . 1 0 `S1290 1 . 1 0 `S1292 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES1295  1 e 1 @3998 ]
+"20262
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3999 ]
+[s S1345 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"20343
+[s S1354 . 1 `uc 1 ABDEN1 1 0 :1:0 
+]
+[s S1356 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S1359 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BRG161 1 0 :1:3 
+]
+[s S1362 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKTXP 1 0 :1:4 
+]
+[s S1365 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCIDL1 1 0 :1:6 
+]
+[s S1368 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1371 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S1374 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+]
+[s S1377 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+]
+[s S1380 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[s S1383 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+]
+[s S1386 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1389 . 1 `S1345 1 . 1 0 `S1354 1 . 1 0 `S1356 1 . 1 0 `S1359 1 . 1 0 `S1362 1 . 1 0 `S1365 1 . 1 0 `S1368 1 . 1 0 `S1371 1 . 1 0 `S1374 1 . 1 0 `S1377 1 . 1 0 `S1380 1 . 1 0 `S1383 1 . 1 0 `S1386 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES1389  1 e 1 @3999 ]
+"26725
+[v _TMR0L TMR0L `VEuc  1 e 1 @4051 ]
+"26863
+[v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
+"27117
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
+[s S904 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"27137
+[s S910 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S915 . 1 `S904 1 . 1 0 `S910 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES915  1 e 1 @4053 ]
+"27182
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
+[s S529 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"28035
+[s S537 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S541 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S545 . 1 `S529 1 . 1 0 `S537 1 . 1 0 `S541 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES545  1 e 1 @4082 ]
+"34539
+[v _TX1IF TX1IF `VEb  1 e 0 @30316 ]
+"153 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"19 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[v _EndOfMessage EndOfMessage `VEuc  1 e 1 0 ]
+[v _NewMessage NewMessage `VEuc  1 e 1 0 ]
+"20
+[v _ModbusMessage ModbusMessage `VEuc  1 e 1 0 ]
+[v _MessageLength MessageLength `VEuc  1 e 1 0 ]
+[v _TimerCount TimerCount `VEuc  1 e 1 0 ]
+[v _z z `VEuc  1 e 1 0 ]
+"21
+[v _response response `VE[256]uc  1 e 256 0 ]
+"22
+[v _received received `VE[256]uc  1 e 256 0 ]
+"23
+[v _HoldingRegister HoldingRegister `VE[50]ui  1 e 100 0 ]
+"24
+[v _InputRegister InputRegister `VE[50]ui  1 e 100 0 ]
+"25
+[v _Coils Coils `VE[50]uc  1 e 50 0 ]
+"26
+[v _DiscreteInput DiscreteInput `VE[50]uc  1 e 50 0 ]
+"38 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"36 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/timer/src/tmr0.c
+[v _timerTMR0ReloadVal16bit timerTMR0ReloadVal16bit `VEus  1 e 2 0 ]
+"47
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.38(v  1 s 3 TMR0_OverflowCallback ]
+"80 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 s 1 eusart1RxHead ]
+"81
+[v _eusart1RxTail eusart1RxTail `VEuc  1 s 1 eusart1RxTail ]
+"82
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 s 8 eusart1RxBuffer ]
+[s S1158 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"83
+[u S1163 . 2 `S1158 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S1163  1 s 16 eusart1RxStatusBuffer ]
+"84
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+[s S1158 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"86
+[u S1163 . 2 `S1158 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES1163  1 e 2 0 ]
+"93
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"94
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"37 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"54
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.30v  1 a 1 32 ]
+"5
+[v printf@fmt fmt `*.31Cuc  1 p 1 31 ]
+"13
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 30 ]
+[s S2389 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S2389  1 p 2 26 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 28 ]
+[v vfprintf@ap ap `*.30*.30v  1 p 1 29 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S2389 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.39S2389  1 p 2 22 ]
+[v vfpfcnvrt@fmt fmt `*.30*.31uc  1 p 1 24 ]
+[v vfpfcnvrt@ap ap `*.30*.30v  1 p 1 25 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 13 ]
+[u S2368 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2371 _IO_FILE 12 `S2368 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.39S2371  1 p 2 15 ]
+"24
+} 0
+"318 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 12 ]
+"322
+} 0
+"307
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+"309
+[v EUSART1_Write@txData txData `uc  1 a 1 11 ]
+"310
+} 0
+"228
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+{
+"231
+} 0
+"38 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"54 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"135
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 11 ]
+"138
+} 0
+"38 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"129
+} 0
+"42 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"178
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"180
+} 0
+"152
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"154
+} 0
+"126
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 11 ]
+"128
+} 0
+"106 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"133
+} 0
+"352
+[v _EUSART1_RxCompleteCallbackRegister EUSART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_RxCompleteCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"358
+} 0
+"344
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"350
+} 0
+"336
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 11 ]
+"342
+} 0
+"39 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"45 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"79 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\libs/modbus.c
+[v _DecodePacket DecodePacket `(v  1 e 1 0 ]
+{
+"112
+} 0
+"498
+[v _WriteMultiCoil WriteMultiCoil `(v  1 e 1 0 ]
+{
+"504
+[v WriteMultiCoil@QtCoils QtCoils `us  1 a 2 37 ]
+"500
+[v WriteMultiCoil@Address Address `us  1 a 2 35 ]
+"509
+[v WriteMultiCoil@CRC CRC `us  1 a 2 28 ]
+"502
+[v WriteMultiCoil@AddressHigh AddressHigh `us  1 a 2 25 ]
+"501
+[v WriteMultiCoil@AddressLow AddressLow `us  1 a 2 23 ]
+"508
+[v WriteMultiCoil@i i `uc  1 a 1 39 ]
+[v WriteMultiCoil@k k `uc  1 a 1 34 ]
+"507
+[v WriteMultiCoil@length length `uc  1 a 1 33 ]
+"508
+[v WriteMultiCoil@l l `uc  1 a 1 32 ]
+"505
+[v WriteMultiCoil@QtBytes QtBytes `uc  1 a 1 27 ]
+"541
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 17 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 16 ]
+[v ___awdiv@counter counter `uc  1 a 1 15 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 11 ]
+[v ___awdiv@divisor divisor `i  1 p 2 13 ]
+"41
+} 0
+"438 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\libs/modbus.c
+[v _WriteCoil WriteCoil `(v  1 e 1 0 ]
+{
+"440
+[v WriteCoil@Address Address `us  1 a 2 35 ]
+"444
+[v WriteCoil@WriteValue WriteValue `us  1 a 2 33 ]
+"448
+[v WriteCoil@CRC CRC `us  1 a 2 31 ]
+"446
+[v WriteCoil@WriteValueHigh WriteValueHigh `us  1 a 2 29 ]
+"445
+[v WriteCoil@WriteValueLow WriteValueLow `us  1 a 2 27 ]
+"442
+[v WriteCoil@AddressLow AddressLow `us  1 a 2 25 ]
+"441
+[v WriteCoil@AddressHigh AddressHigh `us  1 a 2 23 ]
+"449
+[v WriteCoil@i i `uc  1 a 1 37 ]
+"488
+} 0
+"177
+[v _ReadIR ReadIR `(v  1 e 1 0 ]
+{
+"180
+[v ReadIR@QtAddresses QtAddresses `us  1 a 2 29 ]
+"179
+[v ReadIR@StartingAddress StartingAddress `us  1 a 2 27 ]
+"182
+[v ReadIR@CRC CRC `us  1 a 2 25 ]
+"183
+[v ReadIR@j j `uc  1 a 1 32 ]
+"184
+[v ReadIR@i i `uc  1 a 1 31 ]
+"221
+} 0
+"122
+[v _ReadHR ReadHR `(v  1 e 1 0 ]
+{
+"129
+[v ReadHR@i i `us  1 a 2 29 ]
+"125
+[v ReadHR@QtAddresses QtAddresses `us  1 a 2 27 ]
+"124
+[v ReadHR@StartingAddress StartingAddress `us  1 a 2 25 ]
+"127
+[v ReadHR@CRC CRC `us  1 a 2 23 ]
+"128
+[v ReadHR@j j `uc  1 a 1 31 ]
+"167
+} 0
+"361
+[v _ReadDI ReadDI `(v  1 e 1 0 ]
+{
+"364
+[v ReadDI@QtDI QtDI `us  1 a 2 30 ]
+"363
+[v ReadDI@StartingAddress StartingAddress `us  1 a 2 27 ]
+"370
+[v ReadDI@CRC CRC `us  1 a 2 25 ]
+"371
+[v ReadDI@k k `uc  1 a 1 37 ]
+[v ReadDI@j j `uc  1 a 1 36 ]
+[v ReadDI@i i `uc  1 a 1 35 ]
+"368
+[v ReadDI@lsb lsb `uc  1 a 1 34 ]
+"371
+[v ReadDI@l l `uc  1 a 1 33 ]
+"366
+[v ReadDI@QtBytes QtBytes `uc  1 a 1 32 ]
+"367
+[v ReadDI@udRemaining udRemaining `uc  1 a 1 29 ]
+"428
+} 0
+"286
+[v _ReadCoil ReadCoil `(v  1 e 1 0 ]
+{
+"289
+[v ReadCoil@QtCoils QtCoils `us  1 a 2 30 ]
+"288
+[v ReadCoil@StartingAddress StartingAddress `us  1 a 2 27 ]
+"295
+[v ReadCoil@CRC CRC `us  1 a 2 25 ]
+"296
+[v ReadCoil@k k `uc  1 a 1 37 ]
+[v ReadCoil@j j `uc  1 a 1 36 ]
+[v ReadCoil@i i `uc  1 a 1 35 ]
+"293
+[v ReadCoil@lsb lsb `uc  1 a 1 34 ]
+"296
+[v ReadCoil@l l `uc  1 a 1 33 ]
+"291
+[v ReadCoil@QtBytes QtBytes `uc  1 a 1 32 ]
+"292
+[v ReadCoil@udRemaining udRemaining `uc  1 a 1 29 ]
+"351
+} 0
+"231
+[v _PresetSR PresetSR `(v  1 e 1 0 ]
+{
+"242
+[v PresetSR@i i `us  1 a 2 37 ]
+"237
+[v PresetSR@PresetValue PresetValue `us  1 a 2 35 ]
+"235
+[v PresetSR@Address Address `us  1 a 2 33 ]
+"241
+[v PresetSR@CRC CRC `us  1 a 2 31 ]
+"239
+[v PresetSR@PresetValueHigh PresetValueHigh `us  1 a 2 29 ]
+"238
+[v PresetSR@PresetValueLow PresetValueLow `us  1 a 2 27 ]
+"234
+[v PresetSR@AddressHigh AddressHigh `us  1 a 2 25 ]
+"233
+[v PresetSR@AddressLow AddressLow `us  1 a 2 23 ]
+"276
+} 0
+"64
+[v _ClearResponse ClearResponse `(v  1 e 1 0 ]
+{
+"65
+[v ClearResponse@i i `ui  1 a 2 11 ]
+"69
+} 0
+"552
+[v _CalculateCRC CalculateCRC `(us  1 e 2 0 ]
+{
+"554
+[v CalculateCRC@i i `us  1 a 2 19 ]
+"553
+[v CalculateCRC@CRC_TEMP CRC_TEMP `us  1 a 2 17 ]
+"552
+[v CalculateCRC@string string `*.39uc  1 p 2 11 ]
+[v CalculateCRC@_long _long `us  1 p 2 13 ]
+"576
+} 0
+"587
+[v _CheckCRC CheckCRC `(uc  1 e 1 0 ]
+{
+"590
+[v CheckCRC@i i `us  1 a 2 17 ]
+"588
+[v CheckCRC@CRC_Temp CRC_Temp `us  1 a 2 15 ]
+"589
+[v CheckCRC@CRCL CRCL `uc  1 a 1 14 ]
+[v CheckCRC@CRCH CRCH `uc  1 a 1 13 ]
+"617
+} 0
+"80 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"106
+} 0
+"267 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_ReceiveISR EUSART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"270
+[v EUSART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 1 ]
+"269
+[v EUSART1_ReceiveISR@regValue regValue `uc  1 a 1 0 ]
+"305
+} 0
+"105 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[v _rxfunc rxfunc `(v  1 e 1 0 ]
+{
+"126
+} 0
+"54 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/timer/src/tmr0.c
+[v i2_TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"135
+[v i2_TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v i2TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 0 ]
+"138
+} 0
+"121
+[v _TMR0_OverflowISR TMR0_OverflowISR `(v  1 e 1 0 ]
+{
+"133
+} 0
+"140
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+{
+"144
+} 0
+"128 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\main.c
+[v _tmr0func tmr0func `(v  1 e 1 0 ]
+{
+"143
+} 0
+"86 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"89
+} 0
+"51 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\libs/modbus.c
+[v _ModbusDelay ModbusDelay `(v  1 e 1 0 ]
+{
+"54
+} 0
+"131 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"133
+} 0
+"329 D:\Documents\Brandon Castro Veneroso\01 PROGRAMAS EN DESARROLLO\MODBUS\FIRMWARE MODBUS ver 0.5.0.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+{
+"334
+} 0
+"324
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+{
+"327
+} 0

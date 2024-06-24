@@ -1,0 +1,1429 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"6047 C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6047: extern volatile unsigned char OSCCON1 __attribute__((address(0xED8)));
+[v _OSCCON1 `Vuc ~T0 @X0 0 e@3800 ]
+"6187
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6187: extern volatile unsigned char OSCCON3 __attribute__((address(0xEDA)));
+[v _OSCCON3 `Vuc ~T0 @X0 0 e@3802 ]
+"6339
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6339: extern volatile unsigned char OSCEN __attribute__((address(0xEDC)));
+[v _OSCEN `Vuc ~T0 @X0 0 e@3804 ]
+"6448
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6448: extern volatile unsigned char OSCFRQ __attribute__((address(0xEDE)));
+[v _OSCFRQ `Vuc ~T0 @X0 0 e@3806 ]
+"6390
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6390: extern volatile unsigned char OSCTUNE __attribute__((address(0xEDD)));
+[v _OSCTUNE `Vuc ~T0 @X0 0 e@3805 ]
+"54 C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 54: __asm("RX2PPS equ 0E8Dh");
+[; <" RX2PPS equ 0E8Dh ;# ">
+"88
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 88: __asm("CK2PPS equ 0E8Eh");
+[; <" CK2PPS equ 0E8Eh ;# ">
+"93
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 93: __asm("TX2PPS equ 0E8Eh");
+[; <" TX2PPS equ 0E8Eh ;# ">
+"154
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 154: __asm("SSP2CLKPPS equ 0E8Fh");
+[; <" SSP2CLKPPS equ 0E8Fh ;# ">
+"188
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 188: __asm("SSP2DATPPS equ 0E90h");
+[; <" SSP2DATPPS equ 0E90h ;# ">
+"222
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 222: __asm("SSP2SSPPS equ 0E91h");
+[; <" SSP2SSPPS equ 0E91h ;# ">
+"256
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 256: __asm("SSP2BUF equ 0E92h");
+[; <" SSP2BUF equ 0E92h ;# ">
+"276
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 276: __asm("SSP2ADD equ 0E93h");
+[; <" SSP2ADD equ 0E93h ;# ">
+"396
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 396: __asm("SSP2MSK equ 0E94h");
+[; <" SSP2MSK equ 0E94h ;# ">
+"466
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 466: __asm("SSP2STAT equ 0E95h");
+[; <" SSP2STAT equ 0E95h ;# ">
+"920
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 920: __asm("SSP2CON1 equ 0E96h");
+[; <" SSP2CON1 equ 0E96h ;# ">
+"1040
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1040: __asm("SSP2CON2 equ 0E97h");
+[; <" SSP2CON2 equ 0E97h ;# ">
+"1227
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1227: __asm("SSP2CON3 equ 0E98h");
+[; <" SSP2CON3 equ 0E98h ;# ">
+"1289
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1289: __asm("RC2REG equ 0E99h");
+[; <" RC2REG equ 0E99h ;# ">
+"1294
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1294: __asm("RCREG2 equ 0E99h");
+[; <" RCREG2 equ 0E99h ;# ">
+"1327
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1327: __asm("TX2REG equ 0E9Ah");
+[; <" TX2REG equ 0E9Ah ;# ">
+"1332
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1332: __asm("TXREG2 equ 0E9Ah");
+[; <" TXREG2 equ 0E9Ah ;# ">
+"1365
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1365: __asm("SP2BRG equ 0E9Bh");
+[; <" SP2BRG equ 0E9Bh ;# ">
+"1372
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1372: __asm("SP2BRGL equ 0E9Bh");
+[; <" SP2BRGL equ 0E9Bh ;# ">
+"1377
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1377: __asm("SPBRG2 equ 0E9Bh");
+[; <" SPBRG2 equ 0E9Bh ;# ">
+"1410
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1410: __asm("SP2BRGH equ 0E9Ch");
+[; <" SP2BRGH equ 0E9Ch ;# ">
+"1415
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1415: __asm("SPBRGH2 equ 0E9Ch");
+[; <" SPBRGH2 equ 0E9Ch ;# ">
+"1448
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1448: __asm("RC2STA equ 0E9Dh");
+[; <" RC2STA equ 0E9Dh ;# ">
+"1453
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1453: __asm("RCSTA2 equ 0E9Dh");
+[; <" RCSTA2 equ 0E9Dh ;# ">
+"1622
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1622: __asm("TX2STA equ 0E9Eh");
+[; <" TX2STA equ 0E9Eh ;# ">
+"1627
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1627: __asm("TXSTA2 equ 0E9Eh");
+[; <" TXSTA2 equ 0E9Eh ;# ">
+"1778
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1778: __asm("BAUD2CON equ 0E9Fh");
+[; <" BAUD2CON equ 0E9Fh ;# ">
+"1783
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1783: __asm("BAUDCON2 equ 0E9Fh");
+[; <" BAUDCON2 equ 0E9Fh ;# ">
+"1787
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 1787: __asm("BAUDCTL2 equ 0E9Fh");
+[; <" BAUDCTL2 equ 0E9Fh ;# ">
+"2141
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2141: __asm("PPSLOCK equ 0EA0h");
+[; <" PPSLOCK equ 0EA0h ;# ">
+"2161
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2161: __asm("INT0PPS equ 0EA1h");
+[; <" INT0PPS equ 0EA1h ;# ">
+"2221
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2221: __asm("INT1PPS equ 0EA2h");
+[; <" INT1PPS equ 0EA2h ;# ">
+"2281
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2281: __asm("INT2PPS equ 0EA3h");
+[; <" INT2PPS equ 0EA3h ;# ">
+"2341
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2341: __asm("T0CKIPPS equ 0EA4h");
+[; <" T0CKIPPS equ 0EA4h ;# ">
+"2401
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2401: __asm("T1CKIPPS equ 0EA5h");
+[; <" T1CKIPPS equ 0EA5h ;# ">
+"2467
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2467: __asm("T1GPPS equ 0EA6h");
+[; <" T1GPPS equ 0EA6h ;# ">
+"2533
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2533: __asm("T3CKIPPS equ 0EA7h");
+[; <" T3CKIPPS equ 0EA7h ;# ">
+"2599
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2599: __asm("T3GPPS equ 0EA8h");
+[; <" T3GPPS equ 0EA8h ;# ">
+"2665
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2665: __asm("T5CKIPPS equ 0EA9h");
+[; <" T5CKIPPS equ 0EA9h ;# ">
+"2731
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2731: __asm("T5GPPS equ 0EAAh");
+[; <" T5GPPS equ 0EAAh ;# ">
+"2797
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2797: __asm("T2INPPS equ 0EABh");
+[; <" T2INPPS equ 0EABh ;# ">
+"2863
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2863: __asm("T4INPPS equ 0EACh");
+[; <" T4INPPS equ 0EACh ;# ">
+"2929
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2929: __asm("T6INPPS equ 0EADh");
+[; <" T6INPPS equ 0EADh ;# ">
+"2995
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 2995: __asm("ADACTPPS equ 0EAEh");
+[; <" ADACTPPS equ 0EAEh ;# ">
+"3000
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3000: __asm("ADCACTPPS equ 0EAEh");
+[; <" ADCACTPPS equ 0EAEh ;# ">
+"3125
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3125: __asm("CCP1PPS equ 0EAFh");
+[; <" CCP1PPS equ 0EAFh ;# ">
+"3191
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3191: __asm("CCP2PPS equ 0EB0h");
+[; <" CCP2PPS equ 0EB0h ;# ">
+"3257
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3257: __asm("CWG1PPS equ 0EB1h");
+[; <" CWG1PPS equ 0EB1h ;# ">
+"3262
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3262: __asm("CWGINPPS equ 0EB1h");
+[; <" CWGINPPS equ 0EB1h ;# ">
+"3467
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3467: __asm("MDCARLPPS equ 0EB2h");
+[; <" MDCARLPPS equ 0EB2h ;# ">
+"3533
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3533: __asm("MDCARHPPS equ 0EB3h");
+[; <" MDCARHPPS equ 0EB3h ;# ">
+"3599
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3599: __asm("MDSRCPPS equ 0EB4h");
+[; <" MDSRCPPS equ 0EB4h ;# ">
+"3665
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3665: __asm("RX1PPS equ 0EB5h");
+[; <" RX1PPS equ 0EB5h ;# ">
+"3670
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3670: __asm("RXPPS equ 0EB5h");
+[; <" RXPPS equ 0EB5h ;# ">
+"3811
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3811: __asm("CK1PPS equ 0EB6h");
+[; <" CK1PPS equ 0EB6h ;# ">
+"3816
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3816: __asm("TX1PPS equ 0EB6h");
+[; <" TX1PPS equ 0EB6h ;# ">
+"3820
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3820: __asm("CKPPS equ 0EB6h");
+[; <" CKPPS equ 0EB6h ;# ">
+"3824
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 3824: __asm("TXPPS equ 0EB6h");
+[; <" TXPPS equ 0EB6h ;# ">
+"4097
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4097: __asm("SSP1CLKPPS equ 0EB7h");
+[; <" SSP1CLKPPS equ 0EB7h ;# ">
+"4102
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4102: __asm("SSPCLKPPS equ 0EB7h");
+[; <" SSPCLKPPS equ 0EB7h ;# ">
+"4163
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4163: __asm("SSP1DATPPS equ 0EB8h");
+[; <" SSP1DATPPS equ 0EB8h ;# ">
+"4168
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4168: __asm("SSPDATPPS equ 0EB8h");
+[; <" SSPDATPPS equ 0EB8h ;# ">
+"4229
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4229: __asm("SSP1SSPPS equ 0EB9h");
+[; <" SSP1SSPPS equ 0EB9h ;# ">
+"4234
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4234: __asm("SSPSSPPS equ 0EB9h");
+[; <" SSPSSPPS equ 0EB9h ;# ">
+"4295
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4295: __asm("IPR0 equ 0EBAh");
+[; <" IPR0 equ 0EBAh ;# ">
+"4340
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4340: __asm("IPR1 equ 0EBBh");
+[; <" IPR1 equ 0EBBh ;# ">
+"4388
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4388: __asm("IPR2 equ 0EBCh");
+[; <" IPR2 equ 0EBCh ;# ">
+"4436
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4436: __asm("IPR3 equ 0EBDh");
+[; <" IPR3 equ 0EBDh ;# ">
+"4514
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4514: __asm("IPR4 equ 0EBEh");
+[; <" IPR4 equ 0EBEh ;# ">
+"4572
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4572: __asm("IPR5 equ 0EBFh");
+[; <" IPR5 equ 0EBFh ;# ">
+"4618
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4618: __asm("IPR6 equ 0EC0h");
+[; <" IPR6 equ 0EC0h ;# ">
+"4644
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4644: __asm("IPR7 equ 0EC1h");
+[; <" IPR7 equ 0EC1h ;# ">
+"4691
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4691: __asm("PIE0 equ 0EC2h");
+[; <" PIE0 equ 0EC2h ;# ">
+"4736
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4736: __asm("PIE1 equ 0EC3h");
+[; <" PIE1 equ 0EC3h ;# ">
+"4784
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4784: __asm("PIE2 equ 0EC4h");
+[; <" PIE2 equ 0EC4h ;# ">
+"4832
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4832: __asm("PIE3 equ 0EC5h");
+[; <" PIE3 equ 0EC5h ;# ">
+"4942
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4942: __asm("PIE4 equ 0EC6h");
+[; <" PIE4 equ 0EC6h ;# ">
+"4992
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 4992: __asm("PIE5 equ 0EC7h");
+[; <" PIE5 equ 0EC7h ;# ">
+"5024
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5024: __asm("PIE6 equ 0EC8h");
+[; <" PIE6 equ 0EC8h ;# ">
+"5050
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5050: __asm("PIE7 equ 0EC9h");
+[; <" PIE7 equ 0EC9h ;# ">
+"5097
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5097: __asm("PIR0 equ 0ECAh");
+[; <" PIR0 equ 0ECAh ;# ">
+"5142
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5142: __asm("PIR1 equ 0ECBh");
+[; <" PIR1 equ 0ECBh ;# ">
+"5190
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5190: __asm("PIR2 equ 0ECCh");
+[; <" PIR2 equ 0ECCh ;# ">
+"5238
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5238: __asm("PIR3 equ 0ECDh");
+[; <" PIR3 equ 0ECDh ;# ">
+"5316
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5316: __asm("PIR4 equ 0ECEh");
+[; <" PIR4 equ 0ECEh ;# ">
+"5366
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5366: __asm("PIR5 equ 0ECFh");
+[; <" PIR5 equ 0ECFh ;# ">
+"5398
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5398: __asm("PIR6 equ 0ED0h");
+[; <" PIR6 equ 0ED0h ;# ">
+"5424
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5424: __asm("PIR7 equ 0ED1h");
+[; <" PIR7 equ 0ED1h ;# ">
+"5471
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5471: __asm("WDTCON0 equ 0ED2h");
+[; <" WDTCON0 equ 0ED2h ;# ">
+"5546
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5546: __asm("WDTCON1 equ 0ED3h");
+[; <" WDTCON1 equ 0ED3h ;# ">
+"5640
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5640: __asm("WDTPSL equ 0ED4h");
+[; <" WDTPSL equ 0ED4h ;# ">
+"5768
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5768: __asm("WDTPSH equ 0ED5h");
+[; <" WDTPSH equ 0ED5h ;# ">
+"5896
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5896: __asm("WDTTMR equ 0ED6h");
+[; <" WDTTMR equ 0ED6h ;# ">
+"5984
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 5984: __asm("CPUDOZE equ 0ED7h");
+[; <" CPUDOZE equ 0ED7h ;# ">
+"6049
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6049: __asm("OSCCON1 equ 0ED8h");
+[; <" OSCCON1 equ 0ED8h ;# ">
+"6119
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6119: __asm("OSCCON2 equ 0ED9h");
+[; <" OSCCON2 equ 0ED9h ;# ">
+"6189
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6189: __asm("OSCCON3 equ 0EDAh");
+[; <" OSCCON3 equ 0EDAh ;# ">
+"6229
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6229: __asm("OSCSTAT equ 0EDBh");
+[; <" OSCSTAT equ 0EDBh ;# ">
+"6234
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6234: __asm("OSCSTAT1 equ 0EDBh");
+[; <" OSCSTAT1 equ 0EDBh ;# ">
+"6341
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6341: __asm("OSCEN equ 0EDCh");
+[; <" OSCEN equ 0EDCh ;# ">
+"6392
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6392: __asm("OSCTUNE equ 0EDDh");
+[; <" OSCTUNE equ 0EDDh ;# ">
+"6450
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6450: __asm("OSCFRQ equ 0EDEh");
+[; <" OSCFRQ equ 0EDEh ;# ">
+"6496
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6496: __asm("BORCON equ 0EE0h");
+[; <" BORCON equ 0EE0h ;# ">
+"6523
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6523: __asm("PMD0 equ 0EE1h");
+[; <" PMD0 equ 0EE1h ;# ">
+"6600
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6600: __asm("PMD1 equ 0EE2h");
+[; <" PMD1 equ 0EE2h ;# ">
+"6664
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6664: __asm("PMD2 equ 0EE3h");
+[; <" PMD2 equ 0EE3h ;# ">
+"6709
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6709: __asm("PMD3 equ 0EE4h");
+[; <" PMD3 equ 0EE4h ;# ">
+"6747
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6747: __asm("PMD4 equ 0EE5h");
+[; <" PMD4 equ 0EE5h ;# ">
+"6800
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6800: __asm("PMD5 equ 0EE6h");
+[; <" PMD5 equ 0EE6h ;# ">
+"6820
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6820: __asm("RA0PPS equ 0EE7h");
+[; <" RA0PPS equ 0EE7h ;# ">
+"6864
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6864: __asm("RA1PPS equ 0EE8h");
+[; <" RA1PPS equ 0EE8h ;# ">
+"6908
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6908: __asm("RA2PPS equ 0EE9h");
+[; <" RA2PPS equ 0EE9h ;# ">
+"6952
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6952: __asm("RA3PPS equ 0EEAh");
+[; <" RA3PPS equ 0EEAh ;# ">
+"6996
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 6996: __asm("RA4PPS equ 0EEBh");
+[; <" RA4PPS equ 0EEBh ;# ">
+"7040
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7040: __asm("RA5PPS equ 0EECh");
+[; <" RA5PPS equ 0EECh ;# ">
+"7084
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7084: __asm("RA6PPS equ 0EEDh");
+[; <" RA6PPS equ 0EEDh ;# ">
+"7128
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7128: __asm("RA7PPS equ 0EEEh");
+[; <" RA7PPS equ 0EEEh ;# ">
+"7172
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7172: __asm("RB0PPS equ 0EEFh");
+[; <" RB0PPS equ 0EEFh ;# ">
+"7216
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7216: __asm("RB1PPS equ 0EF0h");
+[; <" RB1PPS equ 0EF0h ;# ">
+"7260
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7260: __asm("RB2PPS equ 0EF1h");
+[; <" RB2PPS equ 0EF1h ;# ">
+"7304
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7304: __asm("RB3PPS equ 0EF2h");
+[; <" RB3PPS equ 0EF2h ;# ">
+"7348
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7348: __asm("RB4PPS equ 0EF3h");
+[; <" RB4PPS equ 0EF3h ;# ">
+"7392
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7392: __asm("RB5PPS equ 0EF4h");
+[; <" RB5PPS equ 0EF4h ;# ">
+"7436
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7436: __asm("RB6PPS equ 0EF5h");
+[; <" RB6PPS equ 0EF5h ;# ">
+"7480
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7480: __asm("RB7PPS equ 0EF6h");
+[; <" RB7PPS equ 0EF6h ;# ">
+"7524
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7524: __asm("RC0PPS equ 0EF7h");
+[; <" RC0PPS equ 0EF7h ;# ">
+"7568
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7568: __asm("RC1PPS equ 0EF8h");
+[; <" RC1PPS equ 0EF8h ;# ">
+"7612
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7612: __asm("RC2PPS equ 0EF9h");
+[; <" RC2PPS equ 0EF9h ;# ">
+"7656
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7656: __asm("RC3PPS equ 0EFAh");
+[; <" RC3PPS equ 0EFAh ;# ">
+"7700
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7700: __asm("RC4PPS equ 0EFBh");
+[; <" RC4PPS equ 0EFBh ;# ">
+"7744
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7744: __asm("RC5PPS equ 0EFCh");
+[; <" RC5PPS equ 0EFCh ;# ">
+"7788
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7788: __asm("RC6PPS equ 0EFDh");
+[; <" RC6PPS equ 0EFDh ;# ">
+"7832
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7832: __asm("RC7PPS equ 0EFEh");
+[; <" RC7PPS equ 0EFEh ;# ">
+"7876
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7876: __asm("RD0PPS equ 0EFFh");
+[; <" RD0PPS equ 0EFFh ;# ">
+"7920
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7920: __asm("RD1PPS equ 0F00h");
+[; <" RD1PPS equ 0F00h ;# ">
+"7964
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 7964: __asm("RD2PPS equ 0F01h");
+[; <" RD2PPS equ 0F01h ;# ">
+"8008
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8008: __asm("RD3PPS equ 0F02h");
+[; <" RD3PPS equ 0F02h ;# ">
+"8052
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8052: __asm("RD4PPS equ 0F03h");
+[; <" RD4PPS equ 0F03h ;# ">
+"8096
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8096: __asm("RD5PPS equ 0F04h");
+[; <" RD5PPS equ 0F04h ;# ">
+"8140
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8140: __asm("RD6PPS equ 0F05h");
+[; <" RD6PPS equ 0F05h ;# ">
+"8184
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8184: __asm("RD7PPS equ 0F06h");
+[; <" RD7PPS equ 0F06h ;# ">
+"8228
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8228: __asm("RE0PPS equ 0F07h");
+[; <" RE0PPS equ 0F07h ;# ">
+"8272
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8272: __asm("RE1PPS equ 0F08h");
+[; <" RE1PPS equ 0F08h ;# ">
+"8316
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8316: __asm("RE2PPS equ 0F09h");
+[; <" RE2PPS equ 0F09h ;# ">
+"8360
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8360: __asm("IOCAF equ 0F0Ah");
+[; <" IOCAF equ 0F0Ah ;# ">
+"8422
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8422: __asm("IOCAN equ 0F0Bh");
+[; <" IOCAN equ 0F0Bh ;# ">
+"8484
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8484: __asm("IOCAP equ 0F0Ch");
+[; <" IOCAP equ 0F0Ch ;# ">
+"8546
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8546: __asm("INLVLA equ 0F0Dh");
+[; <" INLVLA equ 0F0Dh ;# ">
+"8608
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8608: __asm("SLRCONA equ 0F0Eh");
+[; <" SLRCONA equ 0F0Eh ;# ">
+"8670
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8670: __asm("ODCONA equ 0F0Fh");
+[; <" ODCONA equ 0F0Fh ;# ">
+"8732
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8732: __asm("WPUA equ 0F10h");
+[; <" WPUA equ 0F10h ;# ">
+"8794
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8794: __asm("ANSELA equ 0F11h");
+[; <" ANSELA equ 0F11h ;# ">
+"8856
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8856: __asm("IOCBF equ 0F12h");
+[; <" IOCBF equ 0F12h ;# ">
+"8918
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8918: __asm("IOCBN equ 0F13h");
+[; <" IOCBN equ 0F13h ;# ">
+"8980
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 8980: __asm("IOCBP equ 0F14h");
+[; <" IOCBP equ 0F14h ;# ">
+"9042
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9042: __asm("INLVLB equ 0F15h");
+[; <" INLVLB equ 0F15h ;# ">
+"9104
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9104: __asm("SLRCONB equ 0F16h");
+[; <" SLRCONB equ 0F16h ;# ">
+"9166
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9166: __asm("ODCONB equ 0F17h");
+[; <" ODCONB equ 0F17h ;# ">
+"9228
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9228: __asm("WPUB equ 0F18h");
+[; <" WPUB equ 0F18h ;# ">
+"9290
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9290: __asm("ANSELB equ 0F19h");
+[; <" ANSELB equ 0F19h ;# ">
+"9352
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9352: __asm("IOCCF equ 0F1Ah");
+[; <" IOCCF equ 0F1Ah ;# ">
+"9414
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9414: __asm("IOCCN equ 0F1Bh");
+[; <" IOCCN equ 0F1Bh ;# ">
+"9476
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9476: __asm("IOCCP equ 0F1Ch");
+[; <" IOCCP equ 0F1Ch ;# ">
+"9538
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9538: __asm("INLVLC equ 0F1Dh");
+[; <" INLVLC equ 0F1Dh ;# ">
+"9600
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9600: __asm("SLRCONC equ 0F1Eh");
+[; <" SLRCONC equ 0F1Eh ;# ">
+"9662
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9662: __asm("ODCONC equ 0F1Fh");
+[; <" ODCONC equ 0F1Fh ;# ">
+"9724
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9724: __asm("WPUC equ 0F20h");
+[; <" WPUC equ 0F20h ;# ">
+"9786
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9786: __asm("ANSELC equ 0F21h");
+[; <" ANSELC equ 0F21h ;# ">
+"9848
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9848: __asm("INLVLD equ 0F22h");
+[; <" INLVLD equ 0F22h ;# ">
+"9910
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9910: __asm("SLRCOND equ 0F23h");
+[; <" SLRCOND equ 0F23h ;# ">
+"9972
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 9972: __asm("ODCOND equ 0F24h");
+[; <" ODCOND equ 0F24h ;# ">
+"10034
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10034: __asm("WPUD equ 0F25h");
+[; <" WPUD equ 0F25h ;# ">
+"10096
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10096: __asm("ANSELD equ 0F26h");
+[; <" ANSELD equ 0F26h ;# ">
+"10158
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10158: __asm("IOCEF equ 0F27h");
+[; <" IOCEF equ 0F27h ;# ">
+"10179
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10179: __asm("IOCEN equ 0F28h");
+[; <" IOCEN equ 0F28h ;# ">
+"10200
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10200: __asm("IOCEP equ 0F29h");
+[; <" IOCEP equ 0F29h ;# ">
+"10221
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10221: __asm("INLVLE equ 0F2Ah");
+[; <" INLVLE equ 0F2Ah ;# ">
+"10259
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10259: __asm("SLRCONE equ 0F2Bh");
+[; <" SLRCONE equ 0F2Bh ;# ">
+"10291
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10291: __asm("ODCONE equ 0F2Ch");
+[; <" ODCONE equ 0F2Ch ;# ">
+"10323
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10323: __asm("WPUE equ 0F2Dh");
+[; <" WPUE equ 0F2Dh ;# ">
+"10361
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10361: __asm("ANSELE equ 0F2Eh");
+[; <" ANSELE equ 0F2Eh ;# ">
+"10393
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10393: __asm("HLVDCON0 equ 0F2Fh");
+[; <" HLVDCON0 equ 0F2Fh ;# ">
+"10473
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10473: __asm("HLVDCON1 equ 0F30h");
+[; <" HLVDCON1 equ 0F30h ;# ">
+"10545
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10545: __asm("FVRCON equ 0F31h");
+[; <" FVRCON equ 0F31h ;# ">
+"10634
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10634: __asm("ZCDCON equ 0F32h");
+[; <" ZCDCON equ 0F32h ;# ">
+"10714
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10714: __asm("DAC1CON0 equ 0F33h");
+[; <" DAC1CON0 equ 0F33h ;# ">
+"10815
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10815: __asm("DAC1CON1 equ 0F34h");
+[; <" DAC1CON1 equ 0F34h ;# ">
+"10867
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10867: __asm("CM2CON0 equ 0F35h");
+[; <" CM2CON0 equ 0F35h ;# ">
+"10947
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10947: __asm("CM2CON1 equ 0F36h");
+[; <" CM2CON1 equ 0F36h ;# ">
+"10987
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 10987: __asm("CM2NCH equ 0F37h");
+[; <" CM2NCH equ 0F37h ;# ">
+"11047
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11047: __asm("CM2PCH equ 0F38h");
+[; <" CM2PCH equ 0F38h ;# ">
+"11107
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11107: __asm("CM1CON0 equ 0F39h");
+[; <" CM1CON0 equ 0F39h ;# ">
+"11187
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11187: __asm("CM1CON1 equ 0F3Ah");
+[; <" CM1CON1 equ 0F3Ah ;# ">
+"11227
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11227: __asm("CM1NCH equ 0F3Bh");
+[; <" CM1NCH equ 0F3Bh ;# ">
+"11287
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11287: __asm("CM1PCH equ 0F3Ch");
+[; <" CM1PCH equ 0F3Ch ;# ">
+"11347
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11347: __asm("CMOUT equ 0F3Dh");
+[; <" CMOUT equ 0F3Dh ;# ">
+"11373
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11373: __asm("CLKRCON equ 0F3Eh");
+[; <" CLKRCON equ 0F3Eh ;# ">
+"11477
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11477: __asm("CLKRCLK equ 0F3Fh");
+[; <" CLKRCLK equ 0F3Fh ;# ">
+"11537
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11537: __asm("CWG1CLK equ 0F40h");
+[; <" CWG1CLK equ 0F40h ;# ">
+"11542
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11542: __asm("CWG1CLKCON equ 0F40h");
+[; <" CWG1CLKCON equ 0F40h ;# ">
+"11591
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11591: __asm("CWG1ISM equ 0F41h");
+[; <" CWG1ISM equ 0F41h ;# ">
+"11638
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11638: __asm("CWG1DBR equ 0F42h");
+[; <" CWG1DBR equ 0F42h ;# ">
+"11742
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11742: __asm("CWG1DBF equ 0F43h");
+[; <" CWG1DBF equ 0F43h ;# ">
+"11846
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11846: __asm("CWG1CON0 equ 0F44h");
+[; <" CWG1CON0 equ 0F44h ;# ">
+"11947
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 11947: __asm("CWG1CON1 equ 0F45h");
+[; <" CWG1CON1 equ 0F45h ;# ">
+"12025
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12025: __asm("CWG1AS0 equ 0F46h");
+[; <" CWG1AS0 equ 0F46h ;# ">
+"12145
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12145: __asm("CWG1AS1 equ 0F47h");
+[; <" CWG1AS1 equ 0F47h ;# ">
+"12195
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12195: __asm("CWG1STR equ 0F48h");
+[; <" CWG1STR equ 0F48h ;# ">
+"12309
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12309: __asm("SCANLADR equ 0F49h");
+[; <" SCANLADR equ 0F49h ;# ">
+"12316
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12316: __asm("SCANLADRL equ 0F49h");
+[; <" SCANLADRL equ 0F49h ;# ">
+"12444
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12444: __asm("SCANLADRH equ 0F4Ah");
+[; <" SCANLADRH equ 0F4Ah ;# ">
+"12572
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12572: __asm("SCANLADRU equ 0F4Bh");
+[; <" SCANLADRU equ 0F4Bh ;# ">
+"12678
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12678: __asm("SCANHADR equ 0F4Ch");
+[; <" SCANHADR equ 0F4Ch ;# ">
+"12685
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12685: __asm("SCANHADRL equ 0F4Ch");
+[; <" SCANHADRL equ 0F4Ch ;# ">
+"12813
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12813: __asm("SCANHADRH equ 0F4Dh");
+[; <" SCANHADRH equ 0F4Dh ;# ">
+"12941
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 12941: __asm("SCANHADRU equ 0F4Eh");
+[; <" SCANHADRU equ 0F4Eh ;# ">
+"13045
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13045: __asm("SCANCON0 equ 0F4Fh");
+[; <" SCANCON0 equ 0F4Fh ;# ">
+"13172
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13172: __asm("SCANTRIG equ 0F50h");
+[; <" SCANTRIG equ 0F50h ;# ">
+"13252
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13252: __asm("MDCON0 equ 0F51h");
+[; <" MDCON0 equ 0F51h ;# ">
+"13320
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13320: __asm("MDCON1 equ 0F52h");
+[; <" MDCON1 equ 0F52h ;# ">
+"13386
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13386: __asm("MDSRC equ 0F53h");
+[; <" MDSRC equ 0F53h ;# ">
+"13466
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13466: __asm("MDCARL equ 0F54h");
+[; <" MDCARL equ 0F54h ;# ">
+"13534
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13534: __asm("MDCARH equ 0F55h");
+[; <" MDCARH equ 0F55h ;# ">
+"13602
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13602: __asm("ADACT equ 0F56h");
+[; <" ADACT equ 0F56h ;# ">
+"13654
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13654: __asm("ADCLK equ 0F57h");
+[; <" ADCLK equ 0F57h ;# ">
+"13712
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13712: __asm("ADREF equ 0F58h");
+[; <" ADREF equ 0F58h ;# ">
+"13753
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13753: __asm("ADCON1 equ 0F59h");
+[; <" ADCON1 equ 0F59h ;# ">
+"13792
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13792: __asm("ADCON2 equ 0F5Ah");
+[; <" ADCON2 equ 0F5Ah ;# ">
+"13869
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13869: __asm("ADCON3 equ 0F5Bh");
+[; <" ADCON3 equ 0F5Bh ;# ">
+"13940
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 13940: __asm("ADACQ equ 0F5Ch");
+[; <" ADACQ equ 0F5Ch ;# ">
+"14010
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14010: __asm("ADCAP equ 0F5Dh");
+[; <" ADCAP equ 0F5Dh ;# ">
+"14062
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14062: __asm("ADPRE equ 0F5Eh");
+[; <" ADPRE equ 0F5Eh ;# ">
+"14132
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14132: __asm("ADPCH equ 0F5Fh");
+[; <" ADPCH equ 0F5Fh ;# ">
+"14190
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14190: __asm("ADCON0 equ 0F60h");
+[; <" ADCON0 equ 0F60h ;# ">
+"14285
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14285: __asm("ADPREV equ 0F61h");
+[; <" ADPREV equ 0F61h ;# ">
+"14292
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14292: __asm("ADPREVL equ 0F61h");
+[; <" ADPREVL equ 0F61h ;# ">
+"14362
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14362: __asm("ADPREVH equ 0F62h");
+[; <" ADPREVH equ 0F62h ;# ">
+"14432
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14432: __asm("ADRES equ 0F63h");
+[; <" ADRES equ 0F63h ;# ">
+"14439
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14439: __asm("ADRESL equ 0F63h");
+[; <" ADRESL equ 0F63h ;# ">
+"14509
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14509: __asm("ADRESH equ 0F64h");
+[; <" ADRESH equ 0F64h ;# ">
+"14571
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14571: __asm("ADSTAT equ 0F65h");
+[; <" ADSTAT equ 0F65h ;# ">
+"14636
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14636: __asm("ADRPT equ 0F66h");
+[; <" ADRPT equ 0F66h ;# ">
+"14706
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14706: __asm("ADCNT equ 0F67h");
+[; <" ADCNT equ 0F67h ;# ">
+"14776
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14776: __asm("ADSTPT equ 0F68h");
+[; <" ADSTPT equ 0F68h ;# ">
+"14783
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14783: __asm("ADSTPTL equ 0F68h");
+[; <" ADSTPTL equ 0F68h ;# ">
+"14853
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14853: __asm("ADSTPTH equ 0F69h");
+[; <" ADSTPTH equ 0F69h ;# ">
+"14923
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14923: __asm("ADLTH equ 0F6Ah");
+[; <" ADLTH equ 0F6Ah ;# ">
+"14930
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 14930: __asm("ADLTHL equ 0F6Ah");
+[; <" ADLTHL equ 0F6Ah ;# ">
+"15000
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15000: __asm("ADLTHH equ 0F6Bh");
+[; <" ADLTHH equ 0F6Bh ;# ">
+"15070
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15070: __asm("ADUTH equ 0F6Ch");
+[; <" ADUTH equ 0F6Ch ;# ">
+"15077
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15077: __asm("ADUTHL equ 0F6Ch");
+[; <" ADUTHL equ 0F6Ch ;# ">
+"15147
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15147: __asm("ADUTHH equ 0F6Dh");
+[; <" ADUTHH equ 0F6Dh ;# ">
+"15217
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15217: __asm("ADERR equ 0F6Eh");
+[; <" ADERR equ 0F6Eh ;# ">
+"15224
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15224: __asm("ADERRL equ 0F6Eh");
+[; <" ADERRL equ 0F6Eh ;# ">
+"15294
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15294: __asm("ADERRH equ 0F6Fh");
+[; <" ADERRH equ 0F6Fh ;# ">
+"15364
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15364: __asm("ADACC equ 0F70h");
+[; <" ADACC equ 0F70h ;# ">
+"15371
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15371: __asm("ADACCL equ 0F70h");
+[; <" ADACCL equ 0F70h ;# ">
+"15441
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15441: __asm("ADACCH equ 0F71h");
+[; <" ADACCH equ 0F71h ;# ">
+"15511
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15511: __asm("ADFLTR equ 0F72h");
+[; <" ADFLTR equ 0F72h ;# ">
+"15518
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15518: __asm("ADFLTRL equ 0F72h");
+[; <" ADFLTRL equ 0F72h ;# ">
+"15588
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15588: __asm("ADFLTRH equ 0F73h");
+[; <" ADFLTRH equ 0F73h ;# ">
+"15658
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15658: __asm("CRCDATA equ 0F74h");
+[; <" CRCDATA equ 0F74h ;# ">
+"15665
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15665: __asm("CRCDATL equ 0F74h");
+[; <" CRCDATL equ 0F74h ;# ">
+"15727
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15727: __asm("CRCDATH equ 0F75h");
+[; <" CRCDATH equ 0F75h ;# ">
+"15789
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15789: __asm("CRCACC equ 0F76h");
+[; <" CRCACC equ 0F76h ;# ">
+"15796
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15796: __asm("CRCACCL equ 0F76h");
+[; <" CRCACCL equ 0F76h ;# ">
+"15858
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15858: __asm("CRCACCH equ 0F77h");
+[; <" CRCACCH equ 0F77h ;# ">
+"15920
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15920: __asm("CRCSHFT equ 0F78h");
+[; <" CRCSHFT equ 0F78h ;# ">
+"15927
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15927: __asm("CRCSHIFTL equ 0F78h");
+[; <" CRCSHIFTL equ 0F78h ;# ">
+"15989
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 15989: __asm("CRCSHIFTH equ 0F79h");
+[; <" CRCSHIFTH equ 0F79h ;# ">
+"16051
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16051: __asm("CRCXOR equ 0F7Ah");
+[; <" CRCXOR equ 0F7Ah ;# ">
+"16058
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16058: __asm("CRCXORL equ 0F7Ah");
+[; <" CRCXORL equ 0F7Ah ;# ">
+"16115
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16115: __asm("CRCXORH equ 0F7Bh");
+[; <" CRCXORH equ 0F7Bh ;# ">
+"16177
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16177: __asm("CRCCON0 equ 0F7Ch");
+[; <" CRCCON0 equ 0F7Ch ;# ">
+"16237
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16237: __asm("CRCCON1 equ 0F7Dh");
+[; <" CRCCON1 equ 0F7Dh ;# ">
+"16313
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16313: __asm("NVMADR equ 0F7Eh");
+[; <" NVMADR equ 0F7Eh ;# ">
+"16320
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16320: __asm("NVMADRL equ 0F7Eh");
+[; <" NVMADRL equ 0F7Eh ;# ">
+"16448
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16448: __asm("NVMADRH equ 0F7Fh");
+[; <" NVMADRH equ 0F7Fh ;# ">
+"16504
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16504: __asm("NVMDAT equ 0F80h");
+[; <" NVMDAT equ 0F80h ;# ">
+"16574
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16574: __asm("NVMCON1 equ 0F81h");
+[; <" NVMCON1 equ 0F81h ;# ">
+"16640
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16640: __asm("NVMCON2 equ 0F82h");
+[; <" NVMCON2 equ 0F82h ;# ">
+"16660
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16660: __asm("LATA equ 0F83h");
+[; <" LATA equ 0F83h ;# ">
+"16772
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16772: __asm("LATB equ 0F84h");
+[; <" LATB equ 0F84h ;# ">
+"16884
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16884: __asm("LATC equ 0F85h");
+[; <" LATC equ 0F85h ;# ">
+"16996
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 16996: __asm("LATD equ 0F86h");
+[; <" LATD equ 0F86h ;# ">
+"17108
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17108: __asm("LATE equ 0F87h");
+[; <" LATE equ 0F87h ;# ">
+"17205
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17205: __asm("TRISA equ 0F88h");
+[; <" TRISA equ 0F88h ;# ">
+"17210
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17210: __asm("DDRA equ 0F88h");
+[; <" DDRA equ 0F88h ;# ">
+"17327
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17327: __asm("TRISB equ 0F89h");
+[; <" TRISB equ 0F89h ;# ">
+"17332
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17332: __asm("DDRB equ 0F89h");
+[; <" DDRB equ 0F89h ;# ">
+"17449
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17449: __asm("TRISC equ 0F8Ah");
+[; <" TRISC equ 0F8Ah ;# ">
+"17454
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17454: __asm("DDRC equ 0F8Ah");
+[; <" DDRC equ 0F8Ah ;# ">
+"17571
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17571: __asm("TRISD equ 0F8Bh");
+[; <" TRISD equ 0F8Bh ;# ">
+"17576
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17576: __asm("DDRD equ 0F8Bh");
+[; <" DDRD equ 0F8Bh ;# ">
+"17693
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17693: __asm("TRISE equ 0F8Ch");
+[; <" TRISE equ 0F8Ch ;# ">
+"17698
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17698: __asm("DDRE equ 0F8Ch");
+[; <" DDRE equ 0F8Ch ;# ">
+"17755
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17755: __asm("PORTA equ 0F8Dh");
+[; <" PORTA equ 0F8Dh ;# ">
+"17839
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17839: __asm("PORTB equ 0F8Eh");
+[; <" PORTB equ 0F8Eh ;# ">
+"17910
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17910: __asm("PORTC equ 0F8Fh");
+[; <" PORTC equ 0F8Fh ;# ">
+"17996
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 17996: __asm("PORTD equ 0F90h");
+[; <" PORTD equ 0F90h ;# ">
+"18067
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18067: __asm("PORTE equ 0F91h");
+[; <" PORTE equ 0F91h ;# ">
+"18274
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18274: __asm("SSP1BUF equ 0F92h");
+[; <" SSP1BUF equ 0F92h ;# ">
+"18294
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18294: __asm("SSP1ADD equ 0F93h");
+[; <" SSP1ADD equ 0F93h ;# ">
+"18414
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18414: __asm("SSP1MSK equ 0F94h");
+[; <" SSP1MSK equ 0F94h ;# ">
+"18484
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18484: __asm("SSP1STAT equ 0F95h");
+[; <" SSP1STAT equ 0F95h ;# ">
+"18938
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 18938: __asm("SSP1CON1 equ 0F96h");
+[; <" SSP1CON1 equ 0F96h ;# ">
+"19058
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19058: __asm("SSP1CON2 equ 0F97h");
+[; <" SSP1CON2 equ 0F97h ;# ">
+"19245
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19245: __asm("SSP1CON3 equ 0F98h");
+[; <" SSP1CON3 equ 0F98h ;# ">
+"19307
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19307: __asm("RC1REG equ 0F99h");
+[; <" RC1REG equ 0F99h ;# ">
+"19312
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19312: __asm("RCREG equ 0F99h");
+[; <" RCREG equ 0F99h ;# ">
+"19316
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19316: __asm("RCREG1 equ 0F99h");
+[; <" RCREG1 equ 0F99h ;# ">
+"19361
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19361: __asm("TX1REG equ 0F9Ah");
+[; <" TX1REG equ 0F9Ah ;# ">
+"19366
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19366: __asm("TXREG1 equ 0F9Ah");
+[; <" TXREG1 equ 0F9Ah ;# ">
+"19370
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19370: __asm("TXREG equ 0F9Ah");
+[; <" TXREG equ 0F9Ah ;# ">
+"19415
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19415: __asm("SP1BRG equ 0F9Bh");
+[; <" SP1BRG equ 0F9Bh ;# ">
+"19420
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19420: __asm("SPBRG equ 0F9Bh");
+[; <" SPBRG equ 0F9Bh ;# ">
+"19427
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19427: __asm("SP1BRGL equ 0F9Bh");
+[; <" SP1BRGL equ 0F9Bh ;# ">
+"19432
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19432: __asm("SPBRG1 equ 0F9Bh");
+[; <" SPBRG1 equ 0F9Bh ;# ">
+"19436
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19436: __asm("SPBRGL equ 0F9Bh");
+[; <" SPBRGL equ 0F9Bh ;# ">
+"19481
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19481: __asm("SP1BRGH equ 0F9Ch");
+[; <" SP1BRGH equ 0F9Ch ;# ">
+"19486
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19486: __asm("SPBRGH equ 0F9Ch");
+[; <" SPBRGH equ 0F9Ch ;# ">
+"19490
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19490: __asm("SPBRGH1 equ 0F9Ch");
+[; <" SPBRGH1 equ 0F9Ch ;# ">
+"19535
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19535: __asm("RC1STA equ 0F9Dh");
+[; <" RC1STA equ 0F9Dh ;# ">
+"19540
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19540: __asm("RCSTA1 equ 0F9Dh");
+[; <" RCSTA1 equ 0F9Dh ;# ">
+"19544
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19544: __asm("RCSTA equ 0F9Dh");
+[; <" RCSTA equ 0F9Dh ;# ">
+"19820
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19820: __asm("TX1STA equ 0F9Eh");
+[; <" TX1STA equ 0F9Eh ;# ">
+"19825
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19825: __asm("TXSTA1 equ 0F9Eh");
+[; <" TXSTA1 equ 0F9Eh ;# ">
+"19829
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 19829: __asm("TXSTA equ 0F9Eh");
+[; <" TXSTA equ 0F9Eh ;# ">
+"20264
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 20264: __asm("BAUD1CON equ 0F9Fh");
+[; <" BAUD1CON equ 0F9Fh ;# ">
+"20269
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 20269: __asm("BAUDCON1 equ 0F9Fh");
+[; <" BAUDCON1 equ 0F9Fh ;# ">
+"20273
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 20273: __asm("BAUDCTL1 equ 0F9Fh");
+[; <" BAUDCTL1 equ 0F9Fh ;# ">
+"20277
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 20277: __asm("BAUDCON equ 0F9Fh");
+[; <" BAUDCON equ 0F9Fh ;# ">
+"20281
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 20281: __asm("BAUDCTL equ 0F9Fh");
+[; <" BAUDCTL equ 0F9Fh ;# ">
+"21045
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21045: __asm("PWM4DC equ 0FA0h");
+[; <" PWM4DC equ 0FA0h ;# ">
+"21052
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21052: __asm("PWM4DCL equ 0FA0h");
+[; <" PWM4DCL equ 0FA0h ;# ">
+"21118
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21118: __asm("PWM4DCH equ 0FA1h");
+[; <" PWM4DCH equ 0FA1h ;# ">
+"21288
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21288: __asm("PWM4CON equ 0FA2h");
+[; <" PWM4CON equ 0FA2h ;# ">
+"21344
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21344: __asm("PWM3DC equ 0FA3h");
+[; <" PWM3DC equ 0FA3h ;# ">
+"21351
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21351: __asm("PWM3DCL equ 0FA3h");
+[; <" PWM3DCL equ 0FA3h ;# ">
+"21417
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21417: __asm("PWM3DCH equ 0FA4h");
+[; <" PWM3DCH equ 0FA4h ;# ">
+"21587
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21587: __asm("PWM3CON equ 0FA5h");
+[; <" PWM3CON equ 0FA5h ;# ">
+"21643
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21643: __asm("CCPR2 equ 0FA6h");
+[; <" CCPR2 equ 0FA6h ;# ">
+"21650
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21650: __asm("CCPR2L equ 0FA6h");
+[; <" CCPR2L equ 0FA6h ;# ">
+"21670
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21670: __asm("CCPR2H equ 0FA7h");
+[; <" CCPR2H equ 0FA7h ;# ">
+"21690
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21690: __asm("CCP2CON equ 0FA8h");
+[; <" CCP2CON equ 0FA8h ;# ">
+"21808
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21808: __asm("CCP2CAP equ 0FA9h");
+[; <" CCP2CAP equ 0FA9h ;# ">
+"21864
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21864: __asm("CCPR1 equ 0FAAh");
+[; <" CCPR1 equ 0FAAh ;# ">
+"21871
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21871: __asm("CCPR1L equ 0FAAh");
+[; <" CCPR1L equ 0FAAh ;# ">
+"21891
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21891: __asm("CCPR1H equ 0FABh");
+[; <" CCPR1H equ 0FABh ;# ">
+"21911
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 21911: __asm("CCP1CON equ 0FACh");
+[; <" CCP1CON equ 0FACh ;# ">
+"22038
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22038: __asm("CCP1CAP equ 0FADh");
+[; <" CCP1CAP equ 0FADh ;# ">
+"22094
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22094: __asm("CCPTMRS equ 0FAEh");
+[; <" CCPTMRS equ 0FAEh ;# ">
+"22182
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22182: __asm("T6TMR equ 0FAFh");
+[; <" T6TMR equ 0FAFh ;# ">
+"22187
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22187: __asm("TMR6 equ 0FAFh");
+[; <" TMR6 equ 0FAFh ;# ">
+"22220
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22220: __asm("T6PR equ 0FB0h");
+[; <" T6PR equ 0FB0h ;# ">
+"22225
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22225: __asm("PR6 equ 0FB0h");
+[; <" PR6 equ 0FB0h ;# ">
+"22258
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22258: __asm("T6CON equ 0FB1h");
+[; <" T6CON equ 0FB1h ;# ">
+"22404
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22404: __asm("T6HLT equ 0FB2h");
+[; <" T6HLT equ 0FB2h ;# ">
+"22532
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22532: __asm("T6CLKCON equ 0FB3h");
+[; <" T6CLKCON equ 0FB3h ;# ">
+"22537
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22537: __asm("T6CLK equ 0FB3h");
+[; <" T6CLK equ 0FB3h ;# ">
+"22690
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22690: __asm("T6RST equ 0FB4h");
+[; <" T6RST equ 0FB4h ;# ">
+"22770
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22770: __asm("T4TMR equ 0FB5h");
+[; <" T4TMR equ 0FB5h ;# ">
+"22775
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22775: __asm("TMR4 equ 0FB5h");
+[; <" TMR4 equ 0FB5h ;# ">
+"22808
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22808: __asm("T4PR equ 0FB6h");
+[; <" T4PR equ 0FB6h ;# ">
+"22813
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22813: __asm("PR4 equ 0FB6h");
+[; <" PR4 equ 0FB6h ;# ">
+"22846
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22846: __asm("T4CON equ 0FB7h");
+[; <" T4CON equ 0FB7h ;# ">
+"22992
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 22992: __asm("T4HLT equ 0FB8h");
+[; <" T4HLT equ 0FB8h ;# ">
+"23120
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23120: __asm("T4CLKCON equ 0FB9h");
+[; <" T4CLKCON equ 0FB9h ;# ">
+"23125
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23125: __asm("T4CLK equ 0FB9h");
+[; <" T4CLK equ 0FB9h ;# ">
+"23278
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23278: __asm("T4RST equ 0FBAh");
+[; <" T4RST equ 0FBAh ;# ">
+"23358
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23358: __asm("T2TMR equ 0FBBh");
+[; <" T2TMR equ 0FBBh ;# ">
+"23363
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23363: __asm("TMR2 equ 0FBBh");
+[; <" TMR2 equ 0FBBh ;# ">
+"23396
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23396: __asm("T2PR equ 0FBCh");
+[; <" T2PR equ 0FBCh ;# ">
+"23401
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23401: __asm("PR2 equ 0FBCh");
+[; <" PR2 equ 0FBCh ;# ">
+"23434
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23434: __asm("T2CON equ 0FBDh");
+[; <" T2CON equ 0FBDh ;# ">
+"23580
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23580: __asm("T2HLT equ 0FBEh");
+[; <" T2HLT equ 0FBEh ;# ">
+"23708
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23708: __asm("T2CLKCON equ 0FBFh");
+[; <" T2CLKCON equ 0FBFh ;# ">
+"23713
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23713: __asm("T2CLK equ 0FBFh");
+[; <" T2CLK equ 0FBFh ;# ">
+"23866
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23866: __asm("T2RST equ 0FC0h");
+[; <" T2RST equ 0FC0h ;# ">
+"23946
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23946: __asm("TMR5 equ 0FC1h");
+[; <" TMR5 equ 0FC1h ;# ">
+"23953
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 23953: __asm("TMR5L equ 0FC1h");
+[; <" TMR5L equ 0FC1h ;# ">
+"24123
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24123: __asm("TMR5H equ 0FC2h");
+[; <" TMR5H equ 0FC2h ;# ">
+"24243
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24243: __asm("T5CON equ 0FC3h");
+[; <" T5CON equ 0FC3h ;# ">
+"24357
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24357: __asm("T5GCON equ 0FC4h");
+[; <" T5GCON equ 0FC4h ;# ">
+"24362
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24362: __asm("PR5 equ 0FC4h");
+[; <" PR5 equ 0FC4h ;# ">
+"24589
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24589: __asm("T5GATE equ 0FC5h");
+[; <" T5GATE equ 0FC5h ;# ">
+"24594
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24594: __asm("TMR5GATE equ 0FC5h");
+[; <" TMR5GATE equ 0FC5h ;# ">
+"24731
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24731: __asm("T5CLK equ 0FC6h");
+[; <" T5CLK equ 0FC6h ;# ">
+"24736
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24736: __asm("TMR5CLK equ 0FC6h");
+[; <" TMR5CLK equ 0FC6h ;# ">
+"24873
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24873: __asm("TMR3 equ 0FC7h");
+[; <" TMR3 equ 0FC7h ;# ">
+"24880
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 24880: __asm("TMR3L equ 0FC7h");
+[; <" TMR3L equ 0FC7h ;# ">
+"25050
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25050: __asm("TMR3H equ 0FC8h");
+[; <" TMR3H equ 0FC8h ;# ">
+"25170
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25170: __asm("T3CON equ 0FC9h");
+[; <" T3CON equ 0FC9h ;# ">
+"25284
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25284: __asm("T3GCON equ 0FCAh");
+[; <" T3GCON equ 0FCAh ;# ">
+"25289
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25289: __asm("PR3 equ 0FCAh");
+[; <" PR3 equ 0FCAh ;# ">
+"25516
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25516: __asm("T3GATE equ 0FCBh");
+[; <" T3GATE equ 0FCBh ;# ">
+"25521
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25521: __asm("TMR3GATE equ 0FCBh");
+[; <" TMR3GATE equ 0FCBh ;# ">
+"25658
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25658: __asm("T3CLK equ 0FCCh");
+[; <" T3CLK equ 0FCCh ;# ">
+"25663
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25663: __asm("TMR3CLK equ 0FCCh");
+[; <" TMR3CLK equ 0FCCh ;# ">
+"25800
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25800: __asm("TMR1 equ 0FCDh");
+[; <" TMR1 equ 0FCDh ;# ">
+"25807
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25807: __asm("TMR1L equ 0FCDh");
+[; <" TMR1L equ 0FCDh ;# ">
+"25977
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 25977: __asm("TMR1H equ 0FCEh");
+[; <" TMR1H equ 0FCEh ;# ">
+"26097
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26097: __asm("T1CON equ 0FCFh");
+[; <" T1CON equ 0FCFh ;# ">
+"26211
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26211: __asm("T1GCON equ 0FD0h");
+[; <" T1GCON equ 0FD0h ;# ">
+"26216
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26216: __asm("PR1 equ 0FD0h");
+[; <" PR1 equ 0FD0h ;# ">
+"26443
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26443: __asm("T1GATE equ 0FD1h");
+[; <" T1GATE equ 0FD1h ;# ">
+"26448
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26448: __asm("TMR1GATE equ 0FD1h");
+[; <" TMR1GATE equ 0FD1h ;# ">
+"26585
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26585: __asm("T1CLK equ 0FD2h");
+[; <" T1CLK equ 0FD2h ;# ">
+"26590
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26590: __asm("TMR1CLK equ 0FD2h");
+[; <" TMR1CLK equ 0FD2h ;# ">
+"26727
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26727: __asm("TMR0L equ 0FD3h");
+[; <" TMR0L equ 0FD3h ;# ">
+"26732
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26732: __asm("TMR0 equ 0FD3h");
+[; <" TMR0 equ 0FD3h ;# ">
+"26865
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26865: __asm("TMR0H equ 0FD4h");
+[; <" TMR0H equ 0FD4h ;# ">
+"26870
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 26870: __asm("PR0 equ 0FD4h");
+[; <" PR0 equ 0FD4h ;# ">
+"27119
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27119: __asm("T0CON0 equ 0FD5h");
+[; <" T0CON0 equ 0FD5h ;# ">
+"27184
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27184: __asm("T0CON1 equ 0FD6h");
+[; <" T0CON1 equ 0FD6h ;# ">
+"27295
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27295: __asm("PCON0 equ 0FD7h");
+[; <" PCON0 equ 0FD7h ;# ">
+"27448
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27448: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"27564
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27564: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"27571
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27571: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"27591
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27591: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"27598
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27598: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"27618
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27618: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"27638
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27638: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"27658
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27658: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"27678
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27678: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"27698
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27698: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"27705
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27705: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"27712
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27712: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"27732
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27732: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"27739
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27739: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"27759
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27759: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"27779
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27779: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"27799
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27799: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"27819
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27819: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"27839
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27839: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"27877
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27877: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"27884
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27884: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"27904
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27904: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"27911
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27911: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"27931
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27931: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"27951
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27951: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"27971
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27971: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"27991
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 27991: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"28011
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28011: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"28092
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28092: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"28099
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28099: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"28119
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28119: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"28139
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28139: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"28161
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28161: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"28168
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28168: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"28188
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28188: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"28208
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28208: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"28239
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28239: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"28246
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28246: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"28253
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28253: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"28273
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28273: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"28293
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28293: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"28313
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28313: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"28399
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28399: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"28406
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28406: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"28426
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28426: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"28446
+[; ;C:/Users/Brandon Castro/.mchp_packs/Microchip/PIC18F-K_DFP/1.12.287/xc8\pic\include\proc\pic18lf47k40.h: 28446: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"39 mcc_generated_files/system/src/clock.c
+[; ;mcc_generated_files/system/src/clock.c: 39: void CLOCK_Initialize(void)
+[v _CLOCK_Initialize `(v ~T0 @X0 1 ef ]
+"40
+[; ;mcc_generated_files/system/src/clock.c: 40: {
+{
+[e :U _CLOCK_Initialize ]
+[f ]
+"42
+[; ;mcc_generated_files/system/src/clock.c: 42:     OSCCON1 = (0 << 0x0)
+[e = _OSCCON1 -> | << -> 0 `i -> 0 `i << -> 7 `i -> 4 `i `uc ]
+"44
+[; ;mcc_generated_files/system/src/clock.c: 44:     OSCCON3 = (0 << 0x6)
+[e = _OSCCON3 -> | << -> 0 `i -> 6 `i << -> 0 `i -> 7 `i `uc ]
+"46
+[; ;mcc_generated_files/system/src/clock.c: 46:     OSCEN = (0 << 0x7)
+[e = _OSCEN -> | | | | | << -> 0 `i -> 7 `i << -> 0 `i -> 6 `i << -> 0 `i -> 5 `i << -> 0 `i -> 4 `i << -> 0 `i -> 3 `i << -> 0 `i -> 2 `i `uc ]
+"52
+[; ;mcc_generated_files/system/src/clock.c: 52:     OSCFRQ = (8 << 0x0);
+[e = _OSCFRQ -> << -> 8 `i -> 0 `i `uc ]
+"53
+[; ;mcc_generated_files/system/src/clock.c: 53:     OSCTUNE = (0 << 0x0);
+[e = _OSCTUNE -> << -> 0 `i -> 0 `i `uc ]
+"55
+[; ;mcc_generated_files/system/src/clock.c: 55: }
+[e :UE 1500 ]
+}
