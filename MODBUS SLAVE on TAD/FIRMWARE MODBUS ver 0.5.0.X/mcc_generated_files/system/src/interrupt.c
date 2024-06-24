@@ -86,13 +86,29 @@ void __interrupt() INTERRUPT_InterruptManager (void)
     }
     else if(INTCONbits.PEIE == 1)
     {
-        if(PIE0bits.TMR0IE == 1 && PIR0bits.TMR0IF == 1)
+        if(PIE4bits.TMR2IE == 1 && PIR4bits.TMR2IF == 1)
+        {
+            TMR2_ISR();
+        } 
+        else if(PIE4bits.TMR1IE == 1 && PIR4bits.TMR1IF == 1)
+        {
+            Timer1_OverflowISR();
+        } 
+        else if(PIE0bits.TMR0IE == 1 && PIR0bits.TMR0IF == 1)
         {
             Timer0_OverflowISR();
+        } 
+        else if(PIE4bits.TMR3IE == 1 && PIR4bits.TMR3IF == 1)
+        {
+            Timer3_OverflowISR();
         } 
         else if(PIE3bits.RC1IE == 1 && PIR3bits.RC1IF == 1)
         {
             EUSART1_RxInterruptHandler();
+        } 
+        else if(PIE4bits.TMR5IE == 1 && PIR4bits.TMR5IF == 1)
+        {
+            Timer5_OverflowISR();
         } 
         else
         {

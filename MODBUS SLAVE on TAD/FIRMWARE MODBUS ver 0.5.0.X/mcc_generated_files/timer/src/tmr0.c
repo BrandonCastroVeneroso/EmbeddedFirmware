@@ -53,14 +53,14 @@ static void TMR0_DefaultOverflowCallback(void);
 
 void TMR0_Initialize(void){
 
-    //TMR0H 220; 
-    TMR0H = 0xDC;
+    //TMR0H 11; 
+    TMR0H = 0xB;
 
-    //TMR0L 102; 
-    TMR0L = 0x66;
+    //TMR0L 220; 
+    TMR0L = 0xDC;
 
-    //T0CS FOSC/4; T0CKPS 1:1; T0ASYNC not_synchronised; 
-    T0CON1 = 0x50;
+    //T0CS FOSC/4; T0CKPS 1:1; T0ASYNC synchronised; 
+    T0CON1 = 0x40;
 
     //Load TMRTMR0 value to the 16-bit reload variable
     timerTMR0ReloadVal16bit = ((uint16_t)TMR0H << 8) | TMR0L;
@@ -74,8 +74,8 @@ void TMR0_Initialize(void){
     //Enable TMR0 interrupt.
     PIE0bits.TMR0IE = 1;
 	
-    //T0OUTPS 1:1; T0EN enabled; T016BIT 16-bit; 
-    T0CON0 = 0x90;
+    //T0OUTPS 1:8; T0EN enabled; T016BIT 16-bit; 
+    T0CON0 = 0x97;
 }
 
 void TMR0_Start(void)

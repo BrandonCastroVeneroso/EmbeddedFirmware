@@ -40,8 +40,14 @@
 #include <stdbool.h>
 #include "config_bits.h"
 #include "../system/pins.h"
+#include "../adc/adcc.h"
 #include "../uart/eusart1.h"
+#include "../nvm/nvm.h"
 #include "../timer/tmr0.h"
+#include "../timer/tmr1.h"
+#include "../timer/tmr3.h"
+#include "../timer/tmr5.h"
+#include "../timer/tmr2.h"
 #include "../system/interrupt.h"
 #include "../system/clock.h"
 
