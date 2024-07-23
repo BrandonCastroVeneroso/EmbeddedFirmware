@@ -1,16 +1,7 @@
 //*******************************************************************
 // Programa: Implementacion Modbus para TAD
-// Autor(es): Brandon Castro.
-// Version: 0.5.0
-//*******************************************************************
-// Fecha: 06-19-2024
-//*******************************************************************
-// Declaración de Constantes Generales.
-//*******************************************************************
-// HS(crystal oscillator) above 8 MHz
-// EXTOSC operating per FEXTOSC bits (device manufacturing default)
-// MCU Clock Frequenc: 20 MHz
-// MCU: PIC18LF47K40
+// JAHAZIEL es gei
+// MCU: PIC18LF47K40bdkjvbdkjrv
 //*******************************************************************
 
 /********************************************************************/
